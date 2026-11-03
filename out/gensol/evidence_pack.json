@@ -1,0 +1,537 @@
+{
+  "run": {
+    "data_dir": "/home/claude/rpt-screen/data/gensol",
+    "period": [
+      "2022-04-01",
+      "2025-03-31"
+    ],
+    "rule_as_of": null,
+    "extractor": "stub",
+    "resolver_thresholds": {
+      "tau_high": 90.0,
+      "tau_low": 75.0
+    },
+    "clauses_in_force": [
+      "CA2013_2(76)(i)@2013-09-12",
+      "CA2013_2(76)(ii)@2013-09-12",
+      "CA2013_2(76)(iii)@2013-09-12",
+      "CA2013_2(76)(iv)@2013-09-12",
+      "CA2013_2(76)(v)@2013-09-12",
+      "CA2013_2(76)(viii)@2013-09-12",
+      "CA2013_Rule3@2014-07-17",
+      "LODR_2(1)(zb)(a)@2022-04-01",
+      "LODR_2(1)(zb)(b)@2022-04-01",
+      "LODR_2(1)(zb)(b)@2023-04-01"
+    ],
+    "clauses_not_evaluated": [
+      [
+        "CA2013_2(76)(vi)",
+        "body corporate whose board/MD/manager is accustomed to act on the advice of a director or manager"
+      ],
+      [
+        "CA2013_2(76)(vii)",
+        "person on whose advice a director or manager is accustomed to act"
+      ],
+      [
+        "LODR_2(1)(zc)_purpose_and_effect",
+        "transaction with an unrelated party whose purpose and effect is to benefit a related party"
+      ]
+    ],
+    "consolidated_turnover_cr": 960.0,
+    "graph": {
+      "nodes": 14,
+      "edges": 21
+    }
+  },
+  "node_labels": {
+    "G0": "Gensol Engineering Limited (CIN L74210GJ2012PLC129176)",
+    "ADDR:15th floor a block westgate business bay s g road ahmedabad city gujarat 380051": "address: 15th Floor, A Block, Westgate Business Bay, S G Road, Ahmedabad City, Gujarat, 380051",
+    "GP1": "Anmol Singh Jaggi (DIN 01293305)",
+    "GP2": "Puneet Singh Jaggi (DIN 02479868)",
+    "GP3": "Vibhuti Patel (DIN 10214165)",
+    "G1": "Go Auto Private Limited (CIN U34300DL2008PTC182562)",
+    "ADDR:a 231 okhla industrial area phase 1 new delhi south delhi delhi 110020": "address: A-231, Okhla Industrial Area Phase-1, New Delhi, South Delhi, Delhi 110020",
+    "G2": "Capbridge Venture LLP (LLPIN AAT-2035)",
+    "G3": "Wellray Solar Industries Private Limited (CIN U74110GJ2017PTC098221)",
+    "ADDR:c 205 siddhivinayak business tower near kataria arcade makarba s g highway ahmedabad gujarat 380051": "address: C 205 Siddhivinayak Business Tower, near Kataria Arcade, Makarba, S.G. Highway, Ahmedabad, Gujarat 380051",
+    "GP4": "Adwitiya Deep Jaiswal (DIN 08561479)",
+    "G4": "Blu-Smart Mobility Limited (CIN U74999GJ2018PLC104895)",
+    "G5": "Gensol Ventures Private Limited (CIN U74999GJ2017PTC096539)",
+    "G6": "Gensol EV Lease Limited (no public identifier)"
+  },
+  "queue": [
+    {
+      "counterparty_id": "GV02",
+      "counterparty_name": "Capbridge Ventures LLP",
+      "item_type": "rule_hit",
+      "evidence_tier": 2,
+      "materiality_tier": 2,
+      "min_confidence": 0.98,
+      "gross_value": 0.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iii)",
+        "rule_version": "CA2013_2(76)(iii)@2013-09-12",
+        "path": [
+          {
+            "src": "GP1",
+            "dst": "G2",
+            "type": "PARTNER_OF",
+            "valid_from": "2020-08-02",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Designated Partner"
+            },
+            "provenance": [
+              {
+                "source_id": "mirror:infyner.com/finance/capbridge-venture-llp/AAT-2035",
+                "source_type": "registry",
+                "retrieved_at": "2026-11-02",
+                "locator": "signatory_details:din=01293305"
+              }
+            ]
+          },
+          {
+            "src": "GP1",
+            "dst": "G0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2019-01-04",
+            "valid_to": "2025-05-12",
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Managing Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mirror:thecompanycheck.com/company/gensol-engineering-limited/L74210GJ2012PLC129176 (data dated 2025-09-03)",
+                "source_type": "registry",
+                "retrieved_at": "2026-11-02",
+                "locator": "signatory_details:din=01293305"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "registry",
+        "alternate_paths": [
+          {
+            "path": [
+              {
+                "src": "GP2",
+                "dst": "G2",
+                "type": "PARTNER_OF",
+                "valid_from": "2020-08-02",
+                "valid_to": null,
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Designated Partner"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mirror:infyner.com/finance/capbridge-venture-llp/AAT-2035",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-11-02",
+                    "locator": "signatory_details:din=02479868"
+                  }
+                ]
+              },
+              {
+                "src": "GP2",
+                "dst": "G0",
+                "type": "DIRECTOR_OF",
+                "valid_from": "2012-09-25",
+                "valid_to": "2025-05-12",
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Whole-time Director"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mirror:thecompanycheck.com/company/gensol-engineering-limited/L74210GJ2012PLC129176 (data dated 2025-09-03)",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-11-02",
+                    "locator": "signatory_details:din=02479868"
+                  }
+                ]
+              }
+            ],
+            "weakest_origin": "registry",
+            "min_confidence": 1.0,
+            "evidence_tier": 2
+          }
+        ],
+        "relationship_window": [
+          "2022-04-01",
+          "2025-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Capbridge Ventures LLP",
+          "ledger_id": "GV02",
+          "node_id": "G2",
+          "method": "fuzzy",
+          "score": 97.67441860465117,
+          "evidence": "fuzzy 'capbridge ventures llp' ~ 'capbridge venture llp' score 98"
+        },
+        "materiality": {
+          "gross_cr": 0.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 0,
+          "basis_at_period_end": ""
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": true
+      },
+      "sort_key": [
+        2,
+        1,
+        2,
+        -0.0,
+        -0.98
+      ]
+    },
+    {
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "item_type": "indicator",
+      "evidence_tier": 5,
+      "materiality_tier": 0,
+      "min_confidence": 0.5,
+      "gross_value": 775.0,
+      "detail": {
+        "signals": [
+          {
+            "indicator": "b2",
+            "signal": "thinly_capitalised_vendor_any_age",
+            "value": "incorporated 2008-08-28, first payment 2022-10-03 (170 months); paid Rs 775.0 cr vs paid-up capital Rs 2.9 cr (ratio 267x)",
+            "post_registration": true,
+            "thresholds": {
+              "ratio": 200.0
+            },
+            "sources": [
+              {
+                "source_id": "mirror:instafinancials.com/company/go-auto-private-limited/U34300DL2008PTC182562 (updated 2026-06-03)",
+                "source_type": "registry",
+                "retrieved_at": "2026-11-02",
+                "locator": "master_data"
+              },
+              {
+                "ledger_rows": [
+                  "GR001",
+                  "GR002",
+                  "GR003",
+                  "GR004",
+                  "GR005",
+                  "GR006"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c",
+            "signal": "advance_ahead_of_receipt",
+            "value": "advance Rs 93.88 cr on 2022-10-03; first receipt 2024-03-31 (545 days later); received Rs 567.7 cr in total",
+            "thresholds": {
+              "grace_days": 90
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR001",
+                  "GR006"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c",
+            "signal": "advance_ahead_of_receipt",
+            "value": "advance Rs 54.62 cr on 2023-02-01; first receipt 2024-03-31 (424 days later); received Rs 567.7 cr in total",
+            "thresholds": {
+              "grace_days": 90
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR002",
+                  "GR006"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c",
+            "signal": "advance_ahead_of_receipt",
+            "value": "advance Rs 134.14 cr on 2023-09-29; first receipt 2024-03-31 (184 days later); received Rs 567.7 cr in total",
+            "thresholds": {
+              "grace_days": 90
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR003",
+                  "GR006"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c",
+            "signal": "advance_ahead_of_receipt",
+            "value": "advance Rs 95.3 cr on 2023-12-27; first receipt 2024-03-31 (95 days later); received Rs 567.7 cr in total",
+            "thresholds": {
+              "grace_days": 90
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR004",
+                  "GR006"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c2",
+            "signal": "unapplied_advance_at_period_end",
+            "post_registration": true,
+            "value": "advances Rs 775.00 cr vs goods/services received Rs 567.73 cr; Rs 207.27 cr (27%) unapplied",
+            "thresholds": {
+              "pct": 25.0
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR001",
+                  "GR002",
+                  "GR003",
+                  "GR004",
+                  "GR005",
+                  "GR006"
+                ]
+              }
+            ]
+          }
+        ],
+        "resolution": {
+          "ledger_name": "Go-Auto Pvt Ltd",
+          "ledger_id": "GV01",
+          "node_id": "G1",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "cin = U34300DL2008PTC182562"
+        },
+        "materiality": {
+          "gross_cr": 775.0,
+          "crossed": {
+            "date": "2023-02-01",
+            "cumulative_cr": 148.5,
+            "threshold_cr": 96.0,
+            "basis": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover",
+            "row_id": "GR002"
+          },
+          "threshold_at_period_end_cr": 96.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        }
+      },
+      "sort_key": [
+        5,
+        1,
+        0,
+        -775.0,
+        -0.5
+      ]
+    },
+    {
+      "counterparty_id": "GV03",
+      "counterparty_name": "Wellray Solar Industries Pvt Ltd",
+      "item_type": "indicator",
+      "evidence_tier": 5,
+      "materiality_tier": 0,
+      "min_confidence": 0.5,
+      "gross_value": 734.33,
+      "detail": {
+        "signals": [
+          {
+            "indicator": "b2",
+            "signal": "thinly_capitalised_vendor_any_age",
+            "value": "incorporated 2017-07-10, first payment 2023-03-31 (68 months); paid Rs 424.1 cr vs paid-up capital Rs 0.01 cr (ratio 42414x)",
+            "post_registration": true,
+            "thresholds": {
+              "ratio": 200.0
+            },
+            "sources": [
+              {
+                "source_id": "mirror:falconebiz.com/company/WELLRAY-SOLAR-INDUSTRIES-PRIVATE-LIMITED-U74110GJ2017PTC098221 (updated 2026-09-30)",
+                "source_type": "registry",
+                "retrieved_at": "2026-11-02",
+                "locator": "master_data"
+              },
+              {
+                "ledger_rows": [
+                  "GR007",
+                  "GR008",
+                  "GR009",
+                  "GR010"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "d",
+            "signal": "circular_flow",
+            "post_registration": true,
+            "value": "paid Rs 424.14 cr, received back Rs 310.19 cr (ratio 0.73); net Rs 113.95 cr on gross Rs 734.33 cr",
+            "thresholds": {
+              "ratio": 0.5,
+              "min_gross_cr": 10.0
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GR007",
+                  "GR008",
+                  "GR009",
+                  "GR010"
+                ]
+              }
+            ]
+          }
+        ],
+        "resolution": {
+          "ledger_name": "Wellray Solar Industries Pvt Ltd",
+          "ledger_id": "GV03",
+          "node_id": "G3",
+          "method": "exact_name",
+          "score": 100.0,
+          "evidence": "canonical names identical: 'wellray solar industries private limited'"
+        },
+        "materiality": {
+          "gross_cr": 734.33,
+          "crossed": {
+            "date": "2023-03-31",
+            "cumulative_cr": 215.89,
+            "threshold_cr": 96.0,
+            "basis": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover",
+            "row_id": "GR007"
+          },
+          "threshold_at_period_end_cr": 96.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        }
+      },
+      "sort_key": [
+        5,
+        1,
+        0,
+        -734.33,
+        -0.5
+      ]
+    }
+  ],
+  "unresolved": [],
+  "related_universe_not_in_ledger": [
+    {
+      "entity_id": "G5",
+      "entity": "Gensol Ventures Private Limited",
+      "via_person": "Anmol Singh Jaggi",
+      "edge": "DIRECTOR_OF",
+      "origin": "registry",
+      "valid_from": null,
+      "valid_to": null,
+      "provenance": [
+        {
+          "source_id": "mirror:infyner.com/people-profile/anmol-singh-jaggi/01293305 (director master data)",
+          "source_type": "registry",
+          "retrieved_at": "2026-11-02",
+          "locator": "signatory_details:din=01293305"
+        }
+      ]
+    },
+    {
+      "entity_id": "G5",
+      "entity": "Gensol Ventures Private Limited",
+      "via_person": "Puneet Singh Jaggi",
+      "edge": "DIRECTOR_OF",
+      "origin": "registry",
+      "valid_from": null,
+      "valid_to": null,
+      "provenance": [
+        {
+          "source_id": "mirror:infyner.com/people-profile/anmol-singh-jaggi/01293305 (director master data)",
+          "source_type": "registry",
+          "retrieved_at": "2026-11-02",
+          "locator": "signatory_details:din=02479868"
+        }
+      ]
+    }
+  ],
+  "resolution_candidates": [],
+  "coverage": {
+    "GV01": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "GV02": [
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "GV03": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "GV04": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ]
+  },
+  "extraction": [],
+  "matches": {
+    "GV01": {
+      "ledger_name": "Go-Auto Pvt Ltd",
+      "ledger_id": "GV01",
+      "node_id": "G1",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "cin = U34300DL2008PTC182562"
+    },
+    "GV02": {
+      "ledger_name": "Capbridge Ventures LLP",
+      "ledger_id": "GV02",
+      "node_id": "G2",
+      "method": "fuzzy",
+      "score": 97.67441860465117,
+      "evidence": "fuzzy 'capbridge ventures llp' ~ 'capbridge venture llp' score 98"
+    },
+    "GV03": {
+      "ledger_name": "Wellray Solar Industries Pvt Ltd",
+      "ledger_id": "GV03",
+      "node_id": "G3",
+      "method": "exact_name",
+      "score": 100.0,
+      "evidence": "canonical names identical: 'wellray solar industries private limited'"
+    },
+    "GV04": {
+      "ledger_name": "BluSmart Mobility Pvt Ltd",
+      "ledger_id": "GV04",
+      "node_id": "G4",
+      "method": "exact_name",
+      "score": 100.0,
+      "evidence": "canonical names identical: 'blusmart mobility private limited'"
+    }
+  },
+  "counterparties_screened": 4
+}

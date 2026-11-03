@@ -1,0 +1,35 @@
+{
+  "source": "books:mbp1_declarations_FY2025-26",
+  "declarations": [
+    {
+      "director_id": "P1",
+      "director": "Rajan Rao",
+      "date": "2025-04-05",
+      "text": "I, Rajan Rao, hereby declare my concern or interest in the following: I am a director and shareholder of Rao Family Holdings Private Limited. My wife Meera Rao is a director of the Company. My brother Vikram Rao is a director of Rao Warehousing Private Limited. My daughter Kavya Rao is a partner in the firm Kavya Traders."
+    },
+    {
+      "director_id": "P2",
+      "director": "Meera Rao",
+      "date": "2025-04-05",
+      "text": "I, Meera Rao, hereby declare that I am a shareholder of Rao Family Holdings Private Limited and hold no other directorships or partnerships."
+    },
+    {
+      "director_id": "P3",
+      "director": "Arvind Shah",
+      "date": "2025-04-07",
+      "text": "I, Arvind Shah, declare that I hold directorships in the following bodies corporate: Shah Advisory Services LLP."
+    },
+    {
+      "director_id": "P4",
+      "director": "Suresh Iyer",
+      "date": "2025-04-06",
+      "text": "I, Suresh Iyer, declare that I am a director of Iyer Infra Private Limited and hold 60 per cent of its shares."
+    },
+    {
+      "director_id": "P9",
+      "director": "Anil Desai",
+      "date": "2025-04-08",
+      "text": "I, Anil Desai, declare that I have no concern or interest in any body corporate or firm other than the Company."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "_readme": "RECONSTRUCTED from Gensol-side figures in SEBI interim order WTM/AB/CFID/CFID-SEC1/31379/2025-26. Only flows that would appear in Gensol's (or its subsidiary's) own books are included; onward hops (Go-Auto -> Capbridge etc.) are excluded by design. Rows marked approx have period-end placeholder dates because the order aggregates them.",
+  "source": "reconstructed_from_sebi_order",
+  "period": [
+    "2022-04-01",
+    "2025-03-31"
+  ],
+  "rows": [
+    {
+      "row_id": "GR001",
+      "date": "2022-10-03",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 93.88,
+      "order_para": 33
+    },
+    {
+      "row_id": "GR002",
+      "date": "2023-02-01",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 54.62,
+      "order_para": 42
+    },
+    {
+      "row_id": "GR003",
+      "date": "2023-09-29",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 134.14,
+      "order_para": 47
+    },
+    {
+      "row_id": "GR004",
+      "date": "2023-12-27",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 95.3,
+      "order_para": 52,
+      "_note": "from subsidiary Gensol EV Lease trust account; group-level view"
+    },
+    {
+      "row_id": "GR005",
+      "date": "2024-03-31",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 397.06,
+      "order_para": 54,
+      "_note": "approx: remainder to reach Rs 775 cr total transferred; dates not itemised in order"
+    },
+    {
+      "row_id": "GR006",
+      "date": "2024-03-31",
+      "counterparty_id": "GV01",
+      "counterparty_name": "Go-Auto Pvt Ltd",
+      "kind": "grn",
+      "amount_cr": 567.73,
+      "order_para": 26,
+      "_note": "approx: 4,704 EVs; delivery dates not in order, so timing-based indicator (c) is indicative only"
+    },
+    {
+      "row_id": "GR007",
+      "date": "2023-03-31",
+      "counterparty_id": "GV03",
+      "counterparty_name": "Wellray Solar Industries Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 215.89,
+      "order_para": 63,
+      "_note": "FY23 aggregate, Gensol->Wellray bank"
+    },
+    {
+      "row_id": "GR008",
+      "date": "2023-03-31",
+      "counterparty_id": "GV03",
+      "counterparty_name": "Wellray Solar Industries Pvt Ltd",
+      "kind": "receipt",
+      "amount_cr": 166.94,
+      "order_para": 63,
+      "_note": "FY23 aggregate, Wellray->Gensol bank"
+    },
+    {
+      "row_id": "GR009",
+      "date": "2024-03-31",
+      "counterparty_id": "GV03",
+      "counterparty_name": "Wellray Solar Industries Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 208.25,
+      "order_para": 63,
+      "_note": "FY24 aggregate"
+    },
+    {
+      "row_id": "GR010",
+      "date": "2024-03-31",
+      "counterparty_id": "GV03",
+      "counterparty_name": "Wellray Solar Industries Pvt Ltd",
+      "kind": "receipt",
+      "amount_cr": 143.25,
+      "order_para": 63,
+      "_note": "FY24 aggregate"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source": "books:draft_financial_statements_FY2025-26:note_38_related_parties",
+  "categories": [
+    {
+      "category": "Subsidiary",
+      "party": "Meridian Logistics Private Limited",
+      "ledger_id": "V001",
+      "transaction_type": "Services availed",
+      "disclosed_amount_cr": 120.0
+    },
+    {
+      "category": "Promoter group entity",
+      "party": "Rao Family Holdings Private Limited",
+      "ledger_id": "V002",
+      "transaction_type": "Purchase of goods",
+      "disclosed_amount_cr": 1800.0
+    },
+    {
+      "category": "KMP",
+      "party": "Key managerial personnel",
+      "ledger_id": null,
+      "transaction_type": "Remuneration",
+      "disclosed_amount_cr": 9.4
+    }
+  ]
+}

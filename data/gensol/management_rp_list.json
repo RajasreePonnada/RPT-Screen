@@ -1,0 +1,51 @@
+{
+  "_readme": "Related parties as the order (para 30) lists them from Gensol's disclosures. Wellray is stated NOT to have been disclosed (para 58-59). Verify against the FY24 annual report Ind AS 24 note.",
+  "source": "sebi_interim_order:para30 (secondary to Gensol annual report)",
+  "parties": [
+    {
+      "name": "Anmol Singh Jaggi",
+      "relationship": "Promoter, Managing Director"
+    },
+    {
+      "name": "Puneet Singh Jaggi",
+      "relationship": "Promoter, Whole-time Director"
+    },
+    {
+      "name": "Gensol Ventures Private Limited",
+      "relationship": "Promoter group"
+    },
+    {
+      "name": "BluSmart Mobility Private Limited",
+      "relationship": "Related party (per order)"
+    },
+    {
+      "name": "Capbridge Ventures LLP",
+      "relationship": "Jaggis designated partners (per order para 30)",
+      "_verify": true
+    },
+    {
+      "name": "Matrix Gas and Renewable Limited",
+      "relationship": "Promoter director"
+    },
+    {
+      "name": "Param Care Private Limited",
+      "relationship": "Both Jaggis directors"
+    },
+    {
+      "name": "Gensol Consultant Private Limited",
+      "relationship": "Promoter directors"
+    },
+    {
+      "name": "GoSolar Ventures Private Limited",
+      "relationship": "Promoter directors"
+    },
+    {
+      "name": "Gensol EV Lease Limited",
+      "relationship": "Subsidiary 88.21%"
+    },
+    {
+      "name": "Prescinto Technologies Private Limited",
+      "relationship": "Significant influence by KMP"
+    }
+  ]
+}

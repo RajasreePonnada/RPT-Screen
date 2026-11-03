@@ -1,0 +1,207 @@
+{
+  "_readme": "Filled 2026-11-02 from public mirrors of MCA master data (infyner.com, thecompanycheck.com, instafinancials.com, falconebiz.com) because mca.gov.in needs interactive captcha. Each record names its mirror; VERIFY against mca.gov.in before relying on it. Fields not available from free sources are left null and listed in _not_retrieved. PAN of Gensol from SEBI order para 87.",
+  "_not_retrieved": [
+    "Go-Auto directors (paywalled on all free mirrors)",
+    "Wellray former directors pre-2020 (paywalled)",
+    "Blu-Smart Mobility Limited registered address, paid-up capital, director appointment dates",
+    "Gensol Ventures address/capital",
+    "Gensol's 16 former directors"
+  ],
+  "entities": [
+    {
+      "entity_id": "G0",
+      "name": "Gensol Engineering Limited",
+      "cin": "L74210GJ2012PLC129176",
+      "llpin": null,
+      "pan": "AAECG9092M",
+      "registered_address": "15th Floor, A Block, Westgate Business Bay, S G Road, Ahmedabad City, Gujarat, 380051",
+      "incorporated_on": "2012-09-25",
+      "paid_up_capital_cr": 38.45,
+      "is_public": true,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "01293305",
+          "name": "Anmol Singh Jaggi",
+          "designation": "Managing Director",
+          "from": "2019-01-04",
+          "to": "2025-05-12"
+        },
+        {
+          "din": "02479868",
+          "name": "Puneet Singh Jaggi",
+          "designation": "Whole-time Director",
+          "from": "2012-09-25",
+          "to": "2025-05-12"
+        },
+        {
+          "din": "10214165",
+          "name": "Vibhuti Patel",
+          "designation": "Director",
+          "from": "2023-07-11",
+          "to": null,
+          "_note": "DIN inferred from mirror URL; verify"
+        }
+      ],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:thecompanycheck.com/company/gensol-engineering-limited/L74210GJ2012PLC129176 (data dated 2025-09-03)"
+    },
+    {
+      "entity_id": "G1",
+      "name": "Go Auto Private Limited",
+      "cin": "U34300DL2008PTC182562",
+      "llpin": null,
+      "pan": null,
+      "registered_address": "A-231, Okhla Industrial Area Phase-1, New Delhi, South Delhi, Delhi 110020",
+      "incorporated_on": "2008-08-28",
+      "paid_up_capital_cr": 2.9,
+      "is_public": false,
+      "kind": "company",
+      "directors": [],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:instafinancials.com/company/go-auto-private-limited/U34300DL2008PTC182562 (updated 2026-06-03)",
+      "_note": "directors not shown on free tier"
+    },
+    {
+      "entity_id": "G2",
+      "name": "Capbridge Venture LLP",
+      "cin": null,
+      "llpin": "AAT-2035",
+      "pan": null,
+      "registered_address": "15th Floor, A Block, Westgate Business Bay, S G Road, Ahmedabad City, Gujarat, 380051",
+      "incorporated_on": "2020-08-02",
+      "paid_up_capital_cr": 0.01,
+      "is_public": false,
+      "kind": "llp",
+      "directors": [
+        {
+          "din": "01293305",
+          "name": "Anmol Singh Jaggi",
+          "designation": "Designated Partner",
+          "from": "2020-08-02",
+          "to": null
+        },
+        {
+          "din": "02479868",
+          "name": "Puneet Singh Jaggi",
+          "designation": "Designated Partner",
+          "from": "2020-08-02",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:infyner.com/finance/capbridge-venture-llp/AAT-2035",
+      "_note": "capital shown as authorised Rs 1 lakh; contribution not shown"
+    },
+    {
+      "entity_id": "G3",
+      "name": "Wellray Solar Industries Private Limited",
+      "aliases": [
+        "Ultravera Industries Private Limited"
+      ],
+      "cin": "U74110GJ2017PTC098221",
+      "llpin": null,
+      "pan": null,
+      "registered_address": "C 205 Siddhivinayak Business Tower, near Kataria Arcade, Makarba, S.G. Highway, Ahmedabad, Gujarat 380051",
+      "incorporated_on": "2017-07-10",
+      "paid_up_capital_cr": 0.01,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "08561479",
+          "name": "Adwitiya Deep Jaiswal",
+          "designation": "Director",
+          "from": "2020-04-13",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:falconebiz.com/company/WELLRAY-SOLAR-INDUSTRIES-PRIVATE-LIMITED-U74110GJ2017PTC098221 (updated 2026-09-30)",
+      "_note": "renamed Ultravera Industries Pvt Ltd; directors before 13 Apr 2020 paywalled"
+    },
+    {
+      "entity_id": "G4",
+      "name": "Blu-Smart Mobility Limited",
+      "aliases": [
+        "BluSmart Mobility Private Limited"
+      ],
+      "cin": "U74999GJ2018PLC104895",
+      "llpin": null,
+      "pan": null,
+      "registered_address": null,
+      "incorporated_on": "2018-10-24",
+      "paid_up_capital_cr": null,
+      "is_public": true,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "01293305",
+          "name": "Anmol Singh Jaggi",
+          "designation": "Director",
+          "from": null,
+          "to": null
+        },
+        {
+          "din": "02479868",
+          "name": "Puneet Singh Jaggi",
+          "designation": "Director",
+          "from": null,
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:infyner.com/people-profile/anmol-singh-jaggi/01293305 (director master data)",
+      "_note": "status Under CIRP; converted to public limited company"
+    },
+    {
+      "entity_id": "G5",
+      "name": "Gensol Ventures Private Limited",
+      "cin": "U74999GJ2017PTC096539",
+      "llpin": null,
+      "pan": null,
+      "registered_address": null,
+      "incorporated_on": "2017-03-28",
+      "paid_up_capital_cr": null,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "01293305",
+          "name": "Anmol Singh Jaggi",
+          "designation": "Director",
+          "from": null,
+          "to": null
+        },
+        {
+          "din": "02479868",
+          "name": "Puneet Singh Jaggi",
+          "designation": "Director",
+          "from": null,
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-11-02",
+      "source": "mirror:infyner.com/people-profile/anmol-singh-jaggi/01293305 (director master data)"
+    }
+  ],
+  "kmp": [],
+  "people_dins": {
+    "01293305": {
+      "person_id": "GP1",
+      "name": "Anmol Singh Jaggi"
+    },
+    "02479868": {
+      "person_id": "GP2",
+      "name": "Puneet Singh Jaggi"
+    },
+    "10214165": {
+      "person_id": "GP3",
+      "name": "Vibhuti Patel"
+    },
+    "08561479": {
+      "person_id": "GP4",
+      "name": "Adwitiya Deep Jaiswal"
+    }
+  }
+}

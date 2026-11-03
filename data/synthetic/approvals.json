@@ -1,0 +1,29 @@
+{
+  "source": "books:audit_committee_minutes_FY2025-26",
+  "approvals": [
+    {
+      "party": "Meridian Logistics Private Limited",
+      "ledger_id": "V001",
+      "type": "omnibus",
+      "limit_cr": 400.0,
+      "date": "2025-04-10",
+      "minute_ref": "AC/2025-26/01/item4"
+    },
+    {
+      "party": "Rao Family Holdings Private Limited",
+      "ledger_id": "V002",
+      "type": "omnibus",
+      "limit_cr": 2500.0,
+      "date": "2025-04-10",
+      "minute_ref": "AC/2025-26/01/item5"
+    },
+    {
+      "party": "Rao Family Holdings Private Limited",
+      "ledger_id": "V002",
+      "type": "shareholder",
+      "limit_cr": 2500.0,
+      "date": "2025-09-26",
+      "minute_ref": "AGM/2025/resolution7"
+    }
+  ]
+}

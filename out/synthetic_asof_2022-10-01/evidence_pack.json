@@ -1,0 +1,1909 @@
+{
+  "run": {
+    "data_dir": "/home/claude/rpt-screen/data/synthetic",
+    "period": [
+      "2025-04-01",
+      "2026-03-31"
+    ],
+    "rule_as_of": "2022-10-01",
+    "extractor": "stub",
+    "resolver_thresholds": {
+      "tau_high": 90.0,
+      "tau_low": 75.0
+    },
+    "clauses_in_force": [
+      "CA2013_2(76)(i)@2013-09-12",
+      "CA2013_2(76)(ii)@2013-09-12",
+      "CA2013_2(76)(iii)@2013-09-12",
+      "CA2013_2(76)(iv)@2013-09-12",
+      "CA2013_2(76)(v)@2013-09-12",
+      "CA2013_2(76)(viii)@2013-09-12",
+      "CA2013_Rule3@2014-07-17",
+      "LODR_2(1)(zb)(a)@2022-04-01",
+      "LODR_2(1)(zb)(b)@2022-04-01"
+    ],
+    "clauses_not_evaluated": [
+      [
+        "CA2013_2(76)(vi)",
+        "body corporate whose board/MD/manager is accustomed to act on the advice of a director or manager"
+      ],
+      [
+        "CA2013_2(76)(vii)",
+        "person on whose advice a director or manager is accustomed to act"
+      ],
+      [
+        "LODR_2(1)(zc)_purpose_and_effect",
+        "transaction with an unrelated party whose purpose and effect is to benefit a related party"
+      ]
+    ],
+    "consolidated_turnover_cr": 25000.0,
+    "graph": {
+      "nodes": 104,
+      "edges": 95
+    }
+  },
+  "queue": [
+    {
+      "counterparty_id": "V005",
+      "counterparty_name": "Iyer Infra Private Limited",
+      "item_type": "rule_hit",
+      "evidence_tier": 0,
+      "materiality_tier": 2,
+      "min_confidence": 1.0,
+      "gross_value": 47.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iv)",
+        "rule_version": "CA2013_2(76)(iv)@2013-09-12",
+        "path": [
+          {
+            "src": "P4",
+            "dst": "E5",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2012-07-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:U45200TN2012PTC086006",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=02233445"
+              }
+            ]
+          },
+          {
+            "src": "P4",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2017-01-15",
+            "valid_to": "2025-11-15",
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Whole-time Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=02233445"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "registry",
+        "alternate_paths": [
+          {
+            "path": [
+              {
+                "src": "P4",
+                "dst": "E5",
+                "type": "DIRECTOR_OF",
+                "valid_from": null,
+                "valid_to": null,
+                "confidence": 0.7,
+                "origin": "llm",
+                "attrs": {},
+                "provenance": [
+                  {
+                    "source_id": "books:mbp1_declarations_FY2025-26:P4",
+                    "source_type": "llm",
+                    "retrieved_at": "2025-04-05",
+                    "locator": "extractor=stub;span=\"I am a director of Iyer Infra Private Limited\""
+                  }
+                ]
+              },
+              {
+                "src": "P4",
+                "dst": "E0",
+                "type": "DIRECTOR_OF",
+                "valid_from": "2017-01-15",
+                "valid_to": "2025-11-15",
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Whole-time Director"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mca_master_data:L15100MH2004PLC147001",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-04-15",
+                    "locator": "signatory_details:din=02233445"
+                  }
+                ]
+              }
+            ],
+            "weakest_origin": "llm",
+            "min_confidence": 0.7,
+            "evidence_tier": 3
+          }
+        ],
+        "relationship_window": [
+          "2025-04-01",
+          "2025-11-15"
+        ],
+        "transactions_outside_window": [
+          "GL00019"
+        ],
+        "resolution": {
+          "ledger_name": "Iyer Infra Private Limited",
+          "ledger_id": "V005",
+          "node_id": "E5",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AABCI1234F"
+        },
+        "materiality": {
+          "gross_cr": 47.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": false
+      },
+      "sort_key": [
+        0,
+        0,
+        2,
+        -47.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V003",
+      "counterparty_name": "Sunrise Agro Pvt Ltd",
+      "item_type": "rule_hit",
+      "evidence_tier": 0,
+      "materiality_tier": 2,
+      "min_confidence": 1.0,
+      "gross_value": 45.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iv)",
+        "rule_version": "CA2013_2(76)(iv)@2013-09-12",
+        "path": [
+          {
+            "src": "P3",
+            "dst": "E3",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2015-03-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:U01100GJ2015PTC082004",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=01122334"
+              }
+            ]
+          },
+          {
+            "src": "P3",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2019-08-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Independent Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=01122334"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "registry",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Sunrise Agro Pvt Ltd",
+          "ledger_id": "V003",
+          "node_id": "E3",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "cin = U01100GJ2015PTC082004"
+        },
+        "materiality": {
+          "gross_cr": 45.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": false
+      },
+      "sort_key": [
+        0,
+        0,
+        2,
+        -45.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "item_type": "rule_hit",
+      "evidence_tier": 1,
+      "materiality_tier": 0,
+      "min_confidence": 1.0,
+      "gross_value": 1800.0,
+      "detail": {
+        "clause_id": "LODR_2(1)(zb)(a)",
+        "rule_version": "LODR_2(1)(zb)(a)@2022-04-01",
+        "path": [
+          {
+            "src": "E2",
+            "dst": "E0",
+            "type": "PROMOTER_GROUP_OF",
+            "valid_from": "2024-04-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "filing",
+            "attrs": {
+              "quarters": [
+                "2024-06-30",
+                "2024-09-30",
+                "2024-12-31",
+                "2025-03-31",
+                "2025-06-30",
+                "2025-09-30",
+                "2025-12-31",
+                "2026-03-31"
+              ]
+            },
+            "provenance": [
+              {
+                "source_id": "exchange_filing:reg31_shareholding_pattern",
+                "source_type": "filing",
+                "retrieved_at": "2026-04-15",
+                "locator": "reg31:quarters=2024-06-30..2026-03-31:holder=Rao Family Holdings Private Limited:category=promoter_group"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "filing",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Rao Family Holdings Pvt. Ltd.",
+          "ledger_id": "V002",
+          "node_id": "E2",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AAACR9012C"
+        },
+        "materiality": {
+          "gross_cr": 1800.0,
+          "crossed": {
+            "date": "2025-09-18",
+            "cumulative_cr": 1050.0,
+            "threshold_cr": 1000.0,
+            "basis": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover",
+            "row_id": "GL00009"
+          },
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "ok",
+          "shareholder": "ok",
+          "refs": [
+            "AC/2025-26/01/item5",
+            "AGM/2025/resolution7"
+          ]
+        },
+        "disclosed_by_management": true
+      },
+      "sort_key": [
+        1,
+        1,
+        0,
+        -1800.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "item_type": "rule_hit",
+      "evidence_tier": 1,
+      "materiality_tier": 0,
+      "min_confidence": 1.0,
+      "gross_value": 1800.0,
+      "detail": {
+        "clause_id": "LODR_2(1)(zb)(b)",
+        "rule_version": "LODR_2(1)(zb)(b)@2022-04-01",
+        "path": [
+          {
+            "src": "E2",
+            "dst": "E0",
+            "type": "SHAREHOLDER_OF",
+            "valid_from": "2024-04-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "filing",
+            "attrs": {
+              "pct": 32.0,
+              "basis": "direct",
+              "category": "promoter_group",
+              "quarters": [
+                "2024-06-30",
+                "2024-09-30",
+                "2024-12-31",
+                "2025-03-31",
+                "2025-06-30",
+                "2025-09-30",
+                "2025-12-31",
+                "2026-03-31"
+              ]
+            },
+            "provenance": [
+              {
+                "source_id": "exchange_filing:reg31_shareholding_pattern",
+                "source_type": "filing",
+                "retrieved_at": "2026-04-15",
+                "locator": "reg31:quarters=2024-06-30..2026-03-31:holder=Rao Family Holdings Private Limited"
+              }
+            ],
+            "note": "held 32.0% >= 20.0% during preceding FY 2024-04-01..2025-03-31"
+          }
+        ],
+        "weakest_origin": "filing",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Rao Family Holdings Pvt. Ltd.",
+          "ledger_id": "V002",
+          "node_id": "E2",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AAACR9012C"
+        },
+        "materiality": {
+          "gross_cr": 1800.0,
+          "crossed": {
+            "date": "2025-09-18",
+            "cumulative_cr": 1050.0,
+            "threshold_cr": 1000.0,
+            "basis": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover",
+            "row_id": "GL00009"
+          },
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "ok",
+          "shareholder": "ok",
+          "refs": [
+            "AC/2025-26/01/item5",
+            "AGM/2025/resolution7"
+          ]
+        },
+        "disclosed_by_management": true
+      },
+      "sort_key": [
+        1,
+        1,
+        0,
+        -1800.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "item_type": "rule_hit",
+      "evidence_tier": 1,
+      "materiality_tier": 1,
+      "min_confidence": 1.0,
+      "gross_value": 310.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(viii)",
+        "rule_version": "CA2013_2(76)(viii)@2013-09-12",
+        "path": [
+          {
+            "src": "E1",
+            "dst": "E0",
+            "type": "SUBSIDIARY_OF",
+            "valid_from": "2012-03-15",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "filing",
+            "attrs": {
+              "pct": 100.0
+            },
+            "provenance": [
+              {
+                "source_id": "annual_report_FY2024-25:AOC-1",
+                "source_type": "filing",
+                "retrieved_at": "2026-04-15",
+                "locator": "AOC-1:Meridian Logistics Private Limited"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "filing",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Meridian Logistics Pvt Ltd",
+          "ledger_id": "V001",
+          "node_id": "E1",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "cin = U63000MH2012PTC231002"
+        },
+        "materiality": {
+          "gross_cr": 310.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "ok",
+          "shareholder": "not_required",
+          "refs": [
+            "AC/2025-26/01/item4"
+          ]
+        },
+        "disclosed_by_management": true
+      },
+      "sort_key": [
+        1,
+        1,
+        1,
+        -310.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V004",
+      "counterparty_name": "BHARAT COLDCHAIN PVT LTD",
+      "item_type": "rule_hit",
+      "evidence_tier": 2,
+      "materiality_tier": 2,
+      "min_confidence": 0.98,
+      "gross_value": 17.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iv)",
+        "rule_version": "CA2013_2(76)(iv)@2013-09-12",
+        "path": [
+          {
+            "src": "P9",
+            "dst": "E4",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2016-11-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:U63020MH2016PTC284005",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=04455667"
+              }
+            ]
+          },
+          {
+            "src": "P9",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2021-02-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Independent Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=04455667"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "registry",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "BHARAT COLDCHAIN PVT LTD",
+          "ledger_id": "V004",
+          "node_id": "E4",
+          "method": "fuzzy",
+          "score": 98.46153846153847,
+          "evidence": "fuzzy 'bharat coldchain private limited' ~ 'bharat cold chain private limited' score 98"
+        },
+        "materiality": {
+          "gross_cr": 17.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": false
+      },
+      "sort_key": [
+        2,
+        0,
+        2,
+        -17.0,
+        -0.98
+      ]
+    },
+    {
+      "counterparty_id": "V006",
+      "counterparty_name": "Kavya Traders",
+      "item_type": "rule_hit",
+      "evidence_tier": 3,
+      "materiality_tier": 2,
+      "min_confidence": 0.75,
+      "gross_value": 13.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iii)",
+        "rule_version": "CA2013_2(76)(iii)@2013-09-12",
+        "path": [
+          {
+            "src": "PERSON:kavya_rao",
+            "dst": "FIRM:kavya_traders",
+            "type": "PARTNER_OF",
+            "valid_from": null,
+            "valid_to": null,
+            "confidence": 0.75,
+            "origin": "llm",
+            "attrs": {},
+            "provenance": [
+              {
+                "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                "source_type": "llm",
+                "retrieved_at": "2025-04-05",
+                "locator": "extractor=stub;span=\"My daughter Kavya Rao is a partner in the firm Kavya Traders\""
+              }
+            ]
+          },
+          {
+            "src": "P1",
+            "dst": "PERSON:kavya_rao",
+            "type": "RELATIVE_OF",
+            "valid_from": null,
+            "valid_to": null,
+            "confidence": 0.8,
+            "origin": "llm",
+            "attrs": {
+              "kind": "daughter"
+            },
+            "provenance": [
+              {
+                "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                "source_type": "llm",
+                "retrieved_at": "2025-04-05",
+                "locator": "extractor=stub;span=\"My daughter Kavya Rao is a partner in the firm Kavya Traders\""
+              }
+            ]
+          },
+          {
+            "src": "P1",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2004-06-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Managing Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=00123456"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "llm",
+        "alternate_paths": [],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Kavya Traders",
+          "ledger_id": "V006",
+          "node_id": "FIRM:kavya_traders",
+          "method": "exact_name",
+          "score": 100.0,
+          "evidence": "canonical names identical: 'kavya traders'"
+        },
+        "materiality": {
+          "gross_cr": 13.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": false
+      },
+      "sort_key": [
+        3,
+        0,
+        2,
+        -13.0,
+        -0.75
+      ]
+    },
+    {
+      "counterparty_id": "V007",
+      "counterparty_name": "Rao Warehousing Pvt Ltd",
+      "item_type": "rule_hit",
+      "evidence_tier": 3,
+      "materiality_tier": 2,
+      "min_confidence": 0.8,
+      "gross_value": 11.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iv)",
+        "rule_version": "CA2013_2(76)(iv)@2013-09-12",
+        "path": [
+          {
+            "src": "P10",
+            "dst": "E7",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2014-05-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:U63090MH2014PTC255007",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=05566778"
+              }
+            ]
+          },
+          {
+            "src": "P1",
+            "dst": "P10",
+            "type": "RELATIVE_OF",
+            "valid_from": null,
+            "valid_to": null,
+            "confidence": 0.8,
+            "origin": "llm",
+            "attrs": {
+              "kind": "brother"
+            },
+            "provenance": [
+              {
+                "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                "source_type": "llm",
+                "retrieved_at": "2025-04-05",
+                "locator": "extractor=stub;span=\"My brother Vikram Rao is a director of Rao Warehousing Private Limited\""
+              }
+            ]
+          },
+          {
+            "src": "P1",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2004-06-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Managing Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=00123456"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "llm",
+        "alternate_paths": [
+          {
+            "path": [
+              {
+                "src": "P10",
+                "dst": "E7",
+                "type": "DIRECTOR_OF",
+                "valid_from": null,
+                "valid_to": null,
+                "confidence": 0.7,
+                "origin": "llm",
+                "attrs": {},
+                "provenance": [
+                  {
+                    "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                    "source_type": "llm",
+                    "retrieved_at": "2025-04-05",
+                    "locator": "extractor=stub;span=\"My brother Vikram Rao is a director of Rao Warehousing Private Limited\""
+                  }
+                ]
+              },
+              {
+                "src": "P1",
+                "dst": "P10",
+                "type": "RELATIVE_OF",
+                "valid_from": null,
+                "valid_to": null,
+                "confidence": 0.8,
+                "origin": "llm",
+                "attrs": {
+                  "kind": "brother"
+                },
+                "provenance": [
+                  {
+                    "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                    "source_type": "llm",
+                    "retrieved_at": "2025-04-05",
+                    "locator": "extractor=stub;span=\"My brother Vikram Rao is a director of Rao Warehousing Private Limited\""
+                  }
+                ]
+              },
+              {
+                "src": "P1",
+                "dst": "E0",
+                "type": "DIRECTOR_OF",
+                "valid_from": "2004-06-01",
+                "valid_to": null,
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Managing Director"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mca_master_data:L15100MH2004PLC147001",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-04-15",
+                    "locator": "signatory_details:din=00123456"
+                  }
+                ]
+              }
+            ],
+            "weakest_origin": "llm",
+            "min_confidence": 0.7,
+            "evidence_tier": 3
+          }
+        ],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Rao Warehousing Pvt Ltd",
+          "ledger_id": "V007",
+          "node_id": "E7",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan derived from gstin 27AABCR5678G1Z1 = AABCR5678G"
+        },
+        "materiality": {
+          "gross_cr": 11.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "none",
+          "shareholder": "not_required",
+          "refs": []
+        },
+        "disclosed_by_management": false
+      },
+      "sort_key": [
+        3,
+        0,
+        2,
+        -11.0,
+        -0.8
+      ]
+    },
+    {
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "item_type": "rule_hit",
+      "evidence_tier": 3,
+      "materiality_tier": 0,
+      "min_confidence": 0.7,
+      "gross_value": 1800.0,
+      "detail": {
+        "clause_id": "CA2013_2(76)(iv)",
+        "rule_version": "CA2013_2(76)(iv)@2013-09-12",
+        "path": [
+          {
+            "src": "P1",
+            "dst": "E2",
+            "type": "DIRECTOR_OF",
+            "valid_from": null,
+            "valid_to": null,
+            "confidence": 0.7,
+            "origin": "llm",
+            "attrs": {},
+            "provenance": [
+              {
+                "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                "source_type": "llm",
+                "retrieved_at": "2025-04-05",
+                "locator": "extractor=stub;span=\"I am a director and shareholder of Rao Family Holdings Private Limited\""
+              }
+            ]
+          },
+          {
+            "src": "P1",
+            "dst": "E0",
+            "type": "DIRECTOR_OF",
+            "valid_from": "2004-06-01",
+            "valid_to": null,
+            "confidence": 1.0,
+            "origin": "registry",
+            "attrs": {
+              "designation": "Managing Director"
+            },
+            "provenance": [
+              {
+                "source_id": "mca_master_data:L15100MH2004PLC147001",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "signatory_details:din=00123456"
+              }
+            ]
+          }
+        ],
+        "weakest_origin": "llm",
+        "alternate_paths": [
+          {
+            "path": [
+              {
+                "src": "P1",
+                "dst": "E2",
+                "type": "MEMBER_OF",
+                "valid_from": null,
+                "valid_to": null,
+                "confidence": 0.7,
+                "origin": "llm",
+                "attrs": {},
+                "provenance": [
+                  {
+                    "source_id": "books:mbp1_declarations_FY2025-26:P1",
+                    "source_type": "llm",
+                    "retrieved_at": "2025-04-05",
+                    "locator": "extractor=stub;span=\"I am a director and shareholder of Rao Family Holdings Private Limited\""
+                  }
+                ]
+              },
+              {
+                "src": "P1",
+                "dst": "E0",
+                "type": "DIRECTOR_OF",
+                "valid_from": "2004-06-01",
+                "valid_to": null,
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Managing Director"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mca_master_data:L15100MH2004PLC147001",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-04-15",
+                    "locator": "signatory_details:din=00123456"
+                  }
+                ]
+              }
+            ],
+            "weakest_origin": "llm",
+            "min_confidence": 0.7,
+            "evidence_tier": 3
+          },
+          {
+            "path": [
+              {
+                "src": "P2",
+                "dst": "E2",
+                "type": "MEMBER_OF",
+                "valid_from": null,
+                "valid_to": null,
+                "confidence": 0.7,
+                "origin": "llm",
+                "attrs": {},
+                "provenance": [
+                  {
+                    "source_id": "books:mbp1_declarations_FY2025-26:P2",
+                    "source_type": "llm",
+                    "retrieved_at": "2025-04-05",
+                    "locator": "extractor=stub;span=\"I am a shareholder of Rao Family Holdings Private Limited\""
+                  }
+                ]
+              },
+              {
+                "src": "P2",
+                "dst": "E0",
+                "type": "DIRECTOR_OF",
+                "valid_from": "2010-04-01",
+                "valid_to": null,
+                "confidence": 1.0,
+                "origin": "registry",
+                "attrs": {
+                  "designation": "Non-Executive Director"
+                },
+                "provenance": [
+                  {
+                    "source_id": "mca_master_data:L15100MH2004PLC147001",
+                    "source_type": "registry",
+                    "retrieved_at": "2026-04-15",
+                    "locator": "signatory_details:din=00123457"
+                  }
+                ]
+              }
+            ],
+            "weakest_origin": "llm",
+            "min_confidence": 0.7,
+            "evidence_tier": 3
+          }
+        ],
+        "relationship_window": [
+          "2025-04-01",
+          "2026-03-31"
+        ],
+        "transactions_outside_window": [],
+        "resolution": {
+          "ledger_name": "Rao Family Holdings Pvt. Ltd.",
+          "ledger_id": "V002",
+          "node_id": "E2",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AAACR9012C"
+        },
+        "materiality": {
+          "gross_cr": 1800.0,
+          "crossed": {
+            "date": "2025-09-18",
+            "cumulative_cr": 1050.0,
+            "threshold_cr": 1000.0,
+            "basis": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover",
+            "row_id": "GL00009"
+          },
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        },
+        "approvals": {
+          "audit_committee": "ok",
+          "shareholder": "ok",
+          "refs": [
+            "AC/2025-26/01/item5",
+            "AGM/2025/resolution7"
+          ]
+        },
+        "disclosed_by_management": true
+      },
+      "sort_key": [
+        3,
+        1,
+        0,
+        -1800.0,
+        -0.7
+      ]
+    },
+    {
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Private Limited",
+      "item_type": "reconciliation",
+      "evidence_tier": 4,
+      "materiality_tier": 1,
+      "min_confidence": 1.0,
+      "gross_value": 310.0,
+      "detail": {
+        "ledger_id": "V001",
+        "party": "Meridian Logistics Private Limited",
+        "category": "Subsidiary",
+        "transaction_type": "Services availed",
+        "disclosed_cr": 120.0,
+        "ledger_gross_cr": 310.0,
+        "variance_cr": 190.0,
+        "variance_pct": 158.3,
+        "rows": [
+          "GL00001",
+          "GL00002",
+          "GL00003",
+          "GL00004",
+          "GL00005",
+          "GL00006"
+        ],
+        "source": "books:draft_financial_statements_FY2025-26:note_38_related_parties",
+        "note": "Ind AS 24 para 18 requires gross transaction amounts; a balance-based figure or an omission would show here."
+      },
+      "sort_key": [
+        4,
+        1,
+        1,
+        -310.0,
+        -1.0
+      ]
+    },
+    {
+      "counterparty_id": "V013",
+      "counterparty_name": "Apex Machinery Pvt Ltd",
+      "item_type": "indicator",
+      "evidence_tier": 5,
+      "materiality_tier": 2,
+      "min_confidence": 0.5,
+      "gross_value": 40.0,
+      "detail": {
+        "signals": [
+          {
+            "indicator": "b",
+            "signal": "new_thinly_capitalised_vendor",
+            "value": "incorporated 2025-02-10, first payment 2025-06-12 (4 months); paid Rs 40.0 cr vs paid-up capital Rs 0.01 cr (ratio 4000x)",
+            "thresholds": {
+              "months": 18,
+              "ratio": 20.0
+            },
+            "sources": [
+              {
+                "source_id": "mca_master_data:U29200MH2025PTC401013",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "master_data"
+              },
+              {
+                "ledger_rows": [
+                  "GL00028",
+                  "GL00029"
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "c",
+            "signal": "advance_ahead_of_receipt",
+            "value": "advance Rs 40.0 cr on 2025-06-12; first receipt 2026-01-25 (227 days later); received Rs 38.0 cr in total",
+            "thresholds": {
+              "grace_days": 90
+            },
+            "sources": [
+              {
+                "ledger_rows": [
+                  "GL00028",
+                  "GL00029"
+                ]
+              }
+            ]
+          }
+        ],
+        "resolution": {
+          "ledger_name": "Apex Machinery Pvt Ltd",
+          "ledger_id": "V013",
+          "node_id": "E13",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AABCA1111M"
+        },
+        "materiality": {
+          "gross_cr": 40.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        }
+      },
+      "sort_key": [
+        5,
+        1,
+        2,
+        -40.0,
+        -0.5
+      ]
+    },
+    {
+      "counterparty_id": "V009",
+      "counterparty_name": "Coastal Agri Ventures Pvt Ltd",
+      "item_type": "indicator",
+      "evidence_tier": 5,
+      "materiality_tier": 2,
+      "min_confidence": 0.5,
+      "gross_value": 30.0,
+      "detail": {
+        "signals": [
+          {
+            "indicator": "a",
+            "signal": "promoter_entity_is_shareholder",
+            "with": "E2",
+            "with_name": "Rao Family Holdings Private Limited",
+            "value": "60.0%",
+            "sources": [
+              {
+                "source_id": "mgt7_inspection:U01400MH2016PTC271009:FY2024-25",
+                "source_type": "filing",
+                "retrieved_at": "2026-04-15",
+                "locator": "MGT-7:holder=E2"
+              }
+            ]
+          }
+        ],
+        "resolution": {
+          "ledger_name": "Coastal Agri Ventures Pvt Ltd",
+          "ledger_id": "V009",
+          "node_id": "E9",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AABCC3456I"
+        },
+        "materiality": {
+          "gross_cr": 30.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        }
+      },
+      "sort_key": [
+        5,
+        1,
+        2,
+        -30.0,
+        -0.5
+      ]
+    },
+    {
+      "counterparty_id": "V008",
+      "counterparty_name": "Greenfield Packaging Private Limited",
+      "item_type": "indicator",
+      "evidence_tier": 5,
+      "materiality_tier": 2,
+      "min_confidence": 0.5,
+      "gross_value": 14.0,
+      "detail": {
+        "signals": [
+          {
+            "indicator": "a",
+            "signal": "shared_registered_address",
+            "with": "E2",
+            "with_name": "Rao Family Holdings Private Limited",
+            "value": "Rao House, 14 Marine Lines, Mumbai 400020, Maharashtra",
+            "sources": [
+              {
+                "source_id": "mca_master_data:U65990MH1998PTC116003",
+                "source_type": "registry",
+                "retrieved_at": "2026-04-15",
+                "locator": "master_data:registered_address"
+              }
+            ]
+          }
+        ],
+        "resolution": {
+          "ledger_name": "Greenfield Packaging Private Limited",
+          "ledger_id": "V008",
+          "node_id": "E8",
+          "method": "identifier",
+          "score": 100.0,
+          "evidence": "pan = AABCG9012H"
+        },
+        "materiality": {
+          "gross_cr": 14.0,
+          "crossed": null,
+          "threshold_at_period_end_cr": 1000.0,
+          "basis_at_period_end": "Reg23(1) 2022-04-01..2025-12-17: lower of Rs 1,000 cr or 10% of turnover"
+        }
+      },
+      "sort_key": [
+        5,
+        1,
+        2,
+        -14.0,
+        -0.5
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "ledger_id": "V017",
+      "name": "Ramesh Transport",
+      "evidence": "best candidate 'lotus transport private limited' scored only 72",
+      "gross_cr": 1.2
+    }
+  ],
+  "resolution_candidates": [],
+  "coverage": {
+    "V001": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V002": [
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V003": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V004": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V005": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V006": [
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V007": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V008": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V009": [
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V010": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V011": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V012": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V013": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V015": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V016": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V018": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V020": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V021": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V022": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V023": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V024": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V025": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V026": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V027": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V028": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V029": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V030": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V031": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V032": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V033": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V034": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V035": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V036": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V037": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V038": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ],
+    "V039": [
+      "2(76)(iv) member test and 2(76)(v): no shareholding record for this counterparty (MGT-7 not inspected)",
+      "CA2013_2(76)(vi): human judgment only",
+      "CA2013_2(76)(vii): human judgment only",
+      "LODR_2(1)(zc)_purpose_and_effect: human judgment only"
+    ]
+  },
+  "extraction": [
+    {
+      "doc": "P1",
+      "backend": "stub",
+      "accepted": [
+        {
+          "from_name": "Rajan Rao",
+          "to_name": "Vikram Rao",
+          "edge_type": "RELATIVE_OF",
+          "kind": "brother",
+          "source_span": "My brother Vikram Rao is a director of Rao Warehousing Private Limited"
+        },
+        {
+          "from_name": "Vikram Rao",
+          "to_name": "Rao Warehousing Private Limited",
+          "edge_type": "DIRECTOR_OF",
+          "kind": null,
+          "source_span": "My brother Vikram Rao is a director of Rao Warehousing Private Limited"
+        },
+        {
+          "from_name": "Rajan Rao",
+          "to_name": "Kavya Rao",
+          "edge_type": "RELATIVE_OF",
+          "kind": "daughter",
+          "source_span": "My daughter Kavya Rao is a partner in the firm Kavya Traders"
+        },
+        {
+          "from_name": "Kavya Rao",
+          "to_name": "Kavya Traders",
+          "edge_type": "PARTNER_OF",
+          "kind": null,
+          "source_span": "My daughter Kavya Rao is a partner in the firm Kavya Traders"
+        },
+        {
+          "from_name": "Rajan Rao",
+          "to_name": "Rao Family Holdings Private Limited",
+          "edge_type": "DIRECTOR_OF",
+          "kind": null,
+          "source_span": "I am a director and shareholder of Rao Family Holdings Private Limited"
+        },
+        {
+          "from_name": "Rajan Rao",
+          "to_name": "Rao Family Holdings Private Limited",
+          "edge_type": "MEMBER_OF",
+          "kind": null,
+          "source_span": "I am a director and shareholder of Rao Family Holdings Private Limited"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "doc": "P2",
+      "backend": "stub",
+      "accepted": [
+        {
+          "from_name": "Meera Rao",
+          "to_name": "Rao Family Holdings Private Limited",
+          "edge_type": "MEMBER_OF",
+          "kind": null,
+          "source_span": "I am a shareholder of Rao Family Holdings Private Limited"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "doc": "P3",
+      "backend": "stub",
+      "accepted": [
+        {
+          "from_name": "Arvind Shah",
+          "to_name": "Shah Advisory Services LLP",
+          "edge_type": "DIRECTOR_OF",
+          "kind": null,
+          "source_span": "I hold directorships in the following bodies corporate: Shah Advisory Services LLP."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "doc": "P4",
+      "backend": "stub",
+      "accepted": [
+        {
+          "from_name": "Suresh Iyer",
+          "to_name": "Iyer Infra Private Limited",
+          "edge_type": "DIRECTOR_OF",
+          "kind": null,
+          "source_span": "I am a director of Iyer Infra Private Limited"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "doc": "P9",
+      "backend": "stub",
+      "accepted": [],
+      "rejected": []
+    }
+  ],
+  "matches": {
+    "V001": {
+      "ledger_name": "Meridian Logistics Pvt Ltd",
+      "ledger_id": "V001",
+      "node_id": "E1",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "cin = U63000MH2012PTC231002"
+    },
+    "V002": {
+      "ledger_name": "Rao Family Holdings Pvt. Ltd.",
+      "ledger_id": "V002",
+      "node_id": "E2",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AAACR9012C"
+    },
+    "V003": {
+      "ledger_name": "Sunrise Agro Pvt Ltd",
+      "ledger_id": "V003",
+      "node_id": "E3",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "cin = U01100GJ2015PTC082004"
+    },
+    "V004": {
+      "ledger_name": "BHARAT COLDCHAIN PVT LTD",
+      "ledger_id": "V004",
+      "node_id": "E4",
+      "method": "fuzzy",
+      "score": 98.46153846153847,
+      "evidence": "fuzzy 'bharat coldchain private limited' ~ 'bharat cold chain private limited' score 98"
+    },
+    "V005": {
+      "ledger_name": "Iyer Infra Private Limited",
+      "ledger_id": "V005",
+      "node_id": "E5",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCI1234F"
+    },
+    "V006": {
+      "ledger_name": "Kavya Traders",
+      "ledger_id": "V006",
+      "node_id": "FIRM:kavya_traders",
+      "method": "exact_name",
+      "score": 100.0,
+      "evidence": "canonical names identical: 'kavya traders'"
+    },
+    "V007": {
+      "ledger_name": "Rao Warehousing Pvt Ltd",
+      "ledger_id": "V007",
+      "node_id": "E7",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan derived from gstin 27AABCR5678G1Z1 = AABCR5678G"
+    },
+    "V008": {
+      "ledger_name": "Greenfield Packaging Private Limited",
+      "ledger_id": "V008",
+      "node_id": "E8",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCG9012H"
+    },
+    "V009": {
+      "ledger_name": "Coastal Agri Ventures Pvt Ltd",
+      "ledger_id": "V009",
+      "node_id": "E9",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCC3456I"
+    },
+    "V010": {
+      "ledger_name": "Horizon Capital Partners LLP",
+      "ledger_id": "V010",
+      "node_id": "E10",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AAEFH7890J"
+    },
+    "V011": {
+      "ledger_name": "Nordic Agri Fund",
+      "ledger_id": "V011",
+      "node_id": "E11",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AADCN1234K"
+    },
+    "V012": {
+      "ledger_name": "Sunrise Agro Foods Ltd",
+      "ledger_id": "V012",
+      "node_id": "E12",
+      "method": "exact_name",
+      "score": 100.0,
+      "evidence": "canonical names identical: 'sunrise agro foods limited'"
+    },
+    "V013": {
+      "ledger_name": "Apex Machinery Pvt Ltd",
+      "ledger_id": "V013",
+      "node_id": "E13",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCA1111M"
+    },
+    "V015": {
+      "ledger_name": "Verma Agrotech Pvt Ltd",
+      "ledger_id": "V015",
+      "node_id": "E15",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCV2222N"
+    },
+    "V016": {
+      "ledger_name": "Silverline Nominees Pvt Ltd",
+      "ledger_id": "V016",
+      "node_id": "E16",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCS3333P"
+    },
+    "V017": {
+      "ledger_name": "Ramesh Transport",
+      "ledger_id": "V017",
+      "node_id": null,
+      "method": "none",
+      "score": 72.0,
+      "evidence": "best candidate 'lotus transport private limited' scored only 72"
+    },
+    "V018": {
+      "ledger_name": "Delta Seeds Pvt Ltd",
+      "ledger_id": "V018",
+      "node_id": "E18",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCD4444Q"
+    },
+    "V020": {
+      "ledger_name": "Prime Fertilisers Pvt Ltd",
+      "ledger_id": "V020",
+      "node_id": "E20",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABAP2992A"
+    },
+    "V021": {
+      "ledger_name": "Shakti Logistics Pvt Ltd",
+      "ledger_id": "V021",
+      "node_id": "E21",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABBS4158H"
+    },
+    "V022": {
+      "ledger_name": "Kaveri Irrigation Pvt Ltd",
+      "ledger_id": "V022",
+      "node_id": "E22",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABCK4264O"
+    },
+    "V023": {
+      "ledger_name": "Everest Packaging Pvt Ltd",
+      "ledger_id": "V023",
+      "node_id": "E23",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABDE9623V"
+    },
+    "V024": {
+      "ledger_name": "Lotus Transport Pvt Ltd",
+      "ledger_id": "V024",
+      "node_id": "E24",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABEL9928C"
+    },
+    "V025": {
+      "ledger_name": "Narmada Agrochem Pvt Ltd",
+      "ledger_id": "V025",
+      "node_id": "E25",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABFN9230J"
+    },
+    "V026": {
+      "ledger_name": "Tulsi Seeds Pvt Ltd",
+      "ledger_id": "V026",
+      "node_id": "E26",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABGT3592Q"
+    },
+    "V027": {
+      "ledger_name": "Indus Engineering Pvt Ltd",
+      "ledger_id": "V027",
+      "node_id": "E27",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABHI6704X"
+    },
+    "V028": {
+      "ledger_name": "Saffron Traders Pvt Ltd",
+      "ledger_id": "V028",
+      "node_id": "E28",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABIS8239E"
+    },
+    "V029": {
+      "ledger_name": "Vega Cold Storage Pvt Ltd",
+      "ledger_id": "V029",
+      "node_id": "E29",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABJV3419L"
+    },
+    "V030": {
+      "ledger_name": "Mahi Fertilisers Pvt Ltd",
+      "ledger_id": "V030",
+      "node_id": "E30",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABKM3278S"
+    },
+    "V031": {
+      "ledger_name": "Ashoka Logistics Pvt Ltd",
+      "ledger_id": "V031",
+      "node_id": "E31",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABLA1756Z"
+    },
+    "V032": {
+      "ledger_name": "Garuda Irrigation Pvt Ltd",
+      "ledger_id": "V032",
+      "node_id": "E32",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABMG8705G"
+    },
+    "V033": {
+      "ledger_name": "Krishna Packaging Pvt Ltd",
+      "ledger_id": "V033",
+      "node_id": "E33",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABNK1608N"
+    },
+    "V034": {
+      "ledger_name": "Amber Transport Pvt Ltd",
+      "ledger_id": "V034",
+      "node_id": "E34",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABOA1271U"
+    },
+    "V035": {
+      "ledger_name": "Sahyadri Agrochem Pvt Ltd",
+      "ledger_id": "V035",
+      "node_id": "E35",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABPS3038B"
+    },
+    "V036": {
+      "ledger_name": "Zenith Seeds Pvt Ltd",
+      "ledger_id": "V036",
+      "node_id": "E36",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABQZ6233I"
+    },
+    "V037": {
+      "ledger_name": "Orchid Engineering Pvt Ltd",
+      "ledger_id": "V037",
+      "node_id": "E37",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABRO9403P"
+    },
+    "V038": {
+      "ledger_name": "Vindhya Traders Pvt Ltd",
+      "ledger_id": "V038",
+      "node_id": "E38",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABSV9347W"
+    },
+    "V039": {
+      "ledger_name": "Aravali Cold Storage Pvt Ltd",
+      "ledger_id": "V039",
+      "node_id": "E39",
+      "method": "identifier",
+      "score": 100.0,
+      "evidence": "pan = AABTA7114D"
+    }
+  },
+  "counterparties_screened": 37
+}

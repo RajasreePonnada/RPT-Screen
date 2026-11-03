@@ -1,0 +1,545 @@
+{
+  "source": "books:general_ledger_FY2025-26",
+  "period": [
+    "2025-04-01",
+    "2026-03-31"
+  ],
+  "rows": [
+    {
+      "row_id": "GL00001",
+      "date": "2025-04-20",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 60
+    },
+    {
+      "row_id": "GL00056",
+      "date": "2025-04-28",
+      "counterparty_id": "V031",
+      "counterparty_name": "Ashoka Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 8.53
+    },
+    {
+      "row_id": "GL00013",
+      "date": "2025-05-02",
+      "counterparty_id": "V003",
+      "counterparty_name": "Sunrise Agro Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 12
+    },
+    {
+      "row_id": "GL00053",
+      "date": "2025-05-08",
+      "counterparty_id": "V029",
+      "counterparty_name": "Vega Cold Storage Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 11.95
+    },
+    {
+      "row_id": "GL00007",
+      "date": "2025-05-10",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 300
+    },
+    {
+      "row_id": "GL00044",
+      "date": "2025-05-10",
+      "counterparty_id": "V026",
+      "counterparty_name": "Tulsi Seeds Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 5.51
+    },
+    {
+      "row_id": "GL00059",
+      "date": "2025-05-13",
+      "counterparty_id": "V033",
+      "counterparty_name": "Krishna Packaging Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.73
+    },
+    {
+      "row_id": "GL00032",
+      "date": "2025-05-25",
+      "counterparty_id": "V017",
+      "counterparty_name": "Ramesh Transport",
+      "kind": "service",
+      "amount_cr": 1.2
+    },
+    {
+      "row_id": "GL00016",
+      "date": "2025-06-01",
+      "counterparty_id": "V004",
+      "counterparty_name": "BHARAT COLDCHAIN PVT LTD",
+      "kind": "service",
+      "amount_cr": 8
+    },
+    {
+      "row_id": "GL00061",
+      "date": "2025-06-02",
+      "counterparty_id": "V033",
+      "counterparty_name": "Krishna Packaging Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 4.06
+    },
+    {
+      "row_id": "GL00058",
+      "date": "2025-06-07",
+      "counterparty_id": "V032",
+      "counterparty_name": "Garuda Irrigation Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 0.99
+    },
+    {
+      "row_id": "GL00028",
+      "date": "2025-06-12",
+      "counterparty_id": "V013",
+      "counterparty_name": "Apex Machinery Pvt Ltd",
+      "kind": "advance",
+      "amount_cr": 40
+    },
+    {
+      "row_id": "GL00002",
+      "date": "2025-06-15",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 55
+    },
+    {
+      "row_id": "GL00023",
+      "date": "2025-06-20",
+      "counterparty_id": "V008",
+      "counterparty_name": "Greenfield Packaging Private Limited",
+      "kind": "purchase",
+      "amount_cr": 14
+    },
+    {
+      "row_id": "GL00034",
+      "date": "2025-06-21",
+      "counterparty_id": "V020",
+      "counterparty_name": "Prime Fertilisers Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 10.08
+    },
+    {
+      "row_id": "GL00026",
+      "date": "2025-06-30",
+      "counterparty_id": "V011",
+      "counterparty_name": "Nordic Agri Fund",
+      "kind": "loan_taken",
+      "amount_cr": 150
+    },
+    {
+      "row_id": "GL00033",
+      "date": "2025-07-01",
+      "counterparty_id": "V018",
+      "counterparty_name": "Delta Seeds Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 9
+    },
+    {
+      "row_id": "GL00052",
+      "date": "2025-07-02",
+      "counterparty_id": "V029",
+      "counterparty_name": "Vega Cold Storage Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 7.58
+    },
+    {
+      "row_id": "GL00065",
+      "date": "2025-07-03",
+      "counterparty_id": "V037",
+      "counterparty_name": "Orchid Engineering Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 11.96
+    },
+    {
+      "row_id": "GL00035",
+      "date": "2025-07-04",
+      "counterparty_id": "V020",
+      "counterparty_name": "Prime Fertilisers Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 2.57
+    },
+    {
+      "row_id": "GL00020",
+      "date": "2025-07-07",
+      "counterparty_id": "V006",
+      "counterparty_name": "Kavya Traders",
+      "kind": "purchase",
+      "amount_cr": 6
+    },
+    {
+      "row_id": "GL00049",
+      "date": "2025-07-11",
+      "counterparty_id": "V028",
+      "counterparty_name": "Saffron Traders Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 8.74
+    },
+    {
+      "row_id": "GL00008",
+      "date": "2025-07-12",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 350
+    },
+    {
+      "row_id": "GL00062",
+      "date": "2025-07-12",
+      "counterparty_id": "V034",
+      "counterparty_name": "Amber Transport Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 2.55
+    },
+    {
+      "row_id": "GL00054",
+      "date": "2025-07-15",
+      "counterparty_id": "V030",
+      "counterparty_name": "Mahi Fertilisers Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.37
+    },
+    {
+      "row_id": "GL00060",
+      "date": "2025-07-16",
+      "counterparty_id": "V033",
+      "counterparty_name": "Krishna Packaging Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 5.75
+    },
+    {
+      "row_id": "GL00018",
+      "date": "2025-08-05",
+      "counterparty_id": "V005",
+      "counterparty_name": "Iyer Infra Private Limited",
+      "kind": "service",
+      "amount_cr": 22
+    },
+    {
+      "row_id": "GL00003",
+      "date": "2025-08-10",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 70
+    },
+    {
+      "row_id": "GL00025",
+      "date": "2025-08-15",
+      "counterparty_id": "V010",
+      "counterparty_name": "Horizon Capital Partners LLP",
+      "kind": "service",
+      "amount_cr": 2
+    },
+    {
+      "row_id": "GL00048",
+      "date": "2025-08-26",
+      "counterparty_id": "V027",
+      "counterparty_name": "Indus Engineering Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 7.11
+    },
+    {
+      "row_id": "GL00024",
+      "date": "2025-09-01",
+      "counterparty_id": "V009",
+      "counterparty_name": "Coastal Agri Ventures Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 30
+    },
+    {
+      "row_id": "GL00036",
+      "date": "2025-09-02",
+      "counterparty_id": "V021",
+      "counterparty_name": "Shakti Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 5.83
+    },
+    {
+      "row_id": "GL00047",
+      "date": "2025-09-05",
+      "counterparty_id": "V027",
+      "counterparty_name": "Indus Engineering Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.63
+    },
+    {
+      "row_id": "GL00014",
+      "date": "2025-09-09",
+      "counterparty_id": "V003",
+      "counterparty_name": "Sunrise Agro Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 18
+    },
+    {
+      "row_id": "GL00030",
+      "date": "2025-09-15",
+      "counterparty_id": "V015",
+      "counterparty_name": "Verma Agrotech Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 19
+    },
+    {
+      "row_id": "GL00037",
+      "date": "2025-09-16",
+      "counterparty_id": "V021",
+      "counterparty_name": "Shakti Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 0.88
+    },
+    {
+      "row_id": "GL00009",
+      "date": "2025-09-18",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 400
+    },
+    {
+      "row_id": "GL00051",
+      "date": "2025-09-19",
+      "counterparty_id": "V029",
+      "counterparty_name": "Vega Cold Storage Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.43
+    },
+    {
+      "row_id": "GL00055",
+      "date": "2025-09-23",
+      "counterparty_id": "V030",
+      "counterparty_name": "Mahi Fertilisers Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 1.69
+    },
+    {
+      "row_id": "GL00031",
+      "date": "2025-10-01",
+      "counterparty_id": "V016",
+      "counterparty_name": "Silverline Nominees Pvt Ltd",
+      "kind": "loan_given",
+      "amount_cr": 35
+    },
+    {
+      "row_id": "GL00057",
+      "date": "2025-10-01",
+      "counterparty_id": "V032",
+      "counterparty_name": "Garuda Irrigation Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 11.65
+    },
+    {
+      "row_id": "GL00004",
+      "date": "2025-10-05",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 45
+    },
+    {
+      "row_id": "GL00046",
+      "date": "2025-10-05",
+      "counterparty_id": "V027",
+      "counterparty_name": "Indus Engineering Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 0.92
+    },
+    {
+      "row_id": "GL00022",
+      "date": "2025-10-10",
+      "counterparty_id": "V007",
+      "counterparty_name": "Rao Warehousing Pvt Ltd",
+      "kind": "rent",
+      "amount_cr": 11
+    },
+    {
+      "row_id": "GL00043",
+      "date": "2025-10-14",
+      "counterparty_id": "V025",
+      "counterparty_name": "Narmada Agrochem Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.59
+    },
+    {
+      "row_id": "GL00066",
+      "date": "2025-10-18",
+      "counterparty_id": "V038",
+      "counterparty_name": "Vindhya Traders Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 2.37
+    },
+    {
+      "row_id": "GL00042",
+      "date": "2025-10-24",
+      "counterparty_id": "V025",
+      "counterparty_name": "Narmada Agrochem Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.33
+    },
+    {
+      "row_id": "GL00067",
+      "date": "2025-10-24",
+      "counterparty_id": "V039",
+      "counterparty_name": "Aravali Cold Storage Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 6.83
+    },
+    {
+      "row_id": "GL00040",
+      "date": "2025-11-05",
+      "counterparty_id": "V024",
+      "counterparty_name": "Lotus Transport Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 11.47
+    },
+    {
+      "row_id": "GL00027",
+      "date": "2025-11-11",
+      "counterparty_id": "V012",
+      "counterparty_name": "Sunrise Agro Foods Ltd",
+      "kind": "sale",
+      "amount_cr": 20
+    },
+    {
+      "row_id": "GL00064",
+      "date": "2025-11-20",
+      "counterparty_id": "V036",
+      "counterparty_name": "Zenith Seeds Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 11.09
+    },
+    {
+      "row_id": "GL00010",
+      "date": "2025-11-22",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 250
+    },
+    {
+      "row_id": "GL00041",
+      "date": "2025-11-23",
+      "counterparty_id": "V024",
+      "counterparty_name": "Lotus Transport Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 7.05
+    },
+    {
+      "row_id": "GL00063",
+      "date": "2025-11-25",
+      "counterparty_id": "V035",
+      "counterparty_name": "Sahyadri Agrochem Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 0.87
+    },
+    {
+      "row_id": "GL00017",
+      "date": "2025-12-01",
+      "counterparty_id": "V004",
+      "counterparty_name": "BHARAT COLDCHAIN PVT LTD",
+      "kind": "service",
+      "amount_cr": 9
+    },
+    {
+      "row_id": "GL00050",
+      "date": "2025-12-07",
+      "counterparty_id": "V028",
+      "counterparty_name": "Saffron Traders Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 3.21
+    },
+    {
+      "row_id": "GL00038",
+      "date": "2025-12-10",
+      "counterparty_id": "V022",
+      "counterparty_name": "Kaveri Irrigation Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 6.37
+    },
+    {
+      "row_id": "GL00005",
+      "date": "2025-12-20",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 40
+    },
+    {
+      "row_id": "GL00045",
+      "date": "2025-12-24",
+      "counterparty_id": "V026",
+      "counterparty_name": "Tulsi Seeds Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 8.96
+    },
+    {
+      "row_id": "GL00039",
+      "date": "2025-12-27",
+      "counterparty_id": "V023",
+      "counterparty_name": "Everest Packaging Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 4.25
+    },
+    {
+      "row_id": "GL00021",
+      "date": "2026-01-11",
+      "counterparty_id": "V006",
+      "counterparty_name": "Kavya Traders",
+      "kind": "purchase",
+      "amount_cr": 7
+    },
+    {
+      "row_id": "GL00011",
+      "date": "2026-01-15",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 300
+    },
+    {
+      "row_id": "GL00015",
+      "date": "2026-01-20",
+      "counterparty_id": "V003",
+      "counterparty_name": "Sunrise Agro Pvt Ltd",
+      "kind": "purchase",
+      "amount_cr": 15
+    },
+    {
+      "row_id": "GL00029",
+      "date": "2026-01-25",
+      "counterparty_id": "V013",
+      "counterparty_name": "Apex Machinery Pvt Ltd",
+      "kind": "grn",
+      "amount_cr": 38
+    },
+    {
+      "row_id": "GL00006",
+      "date": "2026-02-14",
+      "counterparty_id": "V001",
+      "counterparty_name": "Meridian Logistics Pvt Ltd",
+      "kind": "service",
+      "amount_cr": 40
+    },
+    {
+      "row_id": "GL00019",
+      "date": "2026-02-18",
+      "counterparty_id": "V005",
+      "counterparty_name": "Iyer Infra Private Limited",
+      "kind": "service",
+      "amount_cr": 25
+    },
+    {
+      "row_id": "GL00012",
+      "date": "2026-03-10",
+      "counterparty_id": "V002",
+      "counterparty_name": "Rao Family Holdings Pvt. Ltd.",
+      "kind": "purchase",
+      "amount_cr": 200
+    }
+  ]
+}

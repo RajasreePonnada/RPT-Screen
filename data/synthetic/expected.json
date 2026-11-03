@@ -1,0 +1,178 @@
+{
+  "period": [
+    "2025-04-01",
+    "2026-03-31"
+  ],
+  "cases": [
+    {
+      "case": 1,
+      "ledger_id": "V001",
+      "title": "Disclosed subsidiary",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(viii)",
+      "evidence_tier": 1,
+      "designed_miss": false,
+      "note": "Should be found and marked as disclosed by management."
+    },
+    {
+      "case": 2,
+      "ledger_id": "V003",
+      "title": "Undisclosed vendor sharing a director (Arvind Shah)",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(iv)",
+      "evidence_tier": 0,
+      "designed_miss": false,
+      "note": "CIN present in ledger; registry-backed path; not on management list."
+    },
+    {
+      "case": 3,
+      "ledger_id": "V006",
+      "title": "Relative's firm named only in MBP-1 prose (Kavya Traders)",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(iii)",
+      "evidence_tier": 3,
+      "designed_miss": false,
+      "note": "No registry record for the firm; depends on extractor reading the MBP-1 text."
+    },
+    {
+      "case": 3,
+      "ledger_id": "V007",
+      "title": "Relative (brother, prose) is director (registry) of vendor",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(iv)",
+      "evidence_tier": 3,
+      "designed_miss": false,
+      "note": "Mixed path: RELATIVE_OF from LLM, DIRECTOR_OF from MCA."
+    },
+    {
+      "case": 4,
+      "ledger_id": "V004",
+      "title": "Name variant, no identifier (BHARAT COLDCHAIN PVT LTD)",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(iv)",
+      "evidence_tier": 2,
+      "designed_miss": false,
+      "note": "Fuzzy merge then registry path via Anil Desai."
+    },
+    {
+      "case": 5,
+      "ledger_id": "V008",
+      "title": "Common registered address with promoter entity",
+      "expect": "indicator",
+      "clause": null,
+      "evidence_tier": 5,
+      "designed_miss": false,
+      "note": "Not a related party under any clause; indicator (a) only."
+    },
+    {
+      "case": 6,
+      "ledger_id": "V009",
+      "title": "Two-hop: 60% owned by promoter-group entity",
+      "expect": "indicator",
+      "clause": null,
+      "evidence_tier": 5,
+      "designed_miss": false,
+      "note": "Shares a shareholder with promoter group; purpose-and-effect candidate, human decides."
+    },
+    {
+      "case": 7,
+      "ledger_id": "V010",
+      "title": "9.5% holder, just under LODR threshold",
+      "expect": "none",
+      "clause": null,
+      "evidence_tier": null,
+      "designed_miss": false,
+      "note": "Hard negative: must not fire."
+    },
+    {
+      "case": 8,
+      "ledger_id": "V005",
+      "title": "Director resigned 15 Nov 2025; transactions before and after",
+      "expect": "rule_hit",
+      "clause": "CA2013_2(76)(iv)",
+      "evidence_tier": 0,
+      "designed_miss": false,
+      "note": "Related for part of period; window must end 2025-11-15 and the Feb 2026 transaction flagged as outside."
+    },
+    {
+      "case": 9,
+      "ledger_id": "V013",
+      "title": "Legitimate new vendor with large advance",
+      "expect": "indicator",
+      "clause": null,
+      "evidence_tier": 5,
+      "designed_miss": false,
+      "note": "Indicators (b) and (c) fire; expected reviewer rejection (false positive by design)."
+    },
+    {
+      "case": 10,
+      "ledger_id": "V012",
+      "title": "Decoy: Sunrise Agro Foods Ltd",
+      "expect": "none",
+      "clause": null,
+      "evidence_tier": null,
+      "designed_miss": false,
+      "note": "Resolver must not merge with Sunrise Agro Private Limited."
+    },
+    {
+      "case": 11,
+      "ledger_id": "V001",
+      "title": "Disclosed but understated (120 cr disclosed, 310 cr in ledger)",
+      "expect": "reconciliation",
+      "clause": null,
+      "evidence_tier": 4,
+      "designed_miss": false,
+      "note": "Coffee Day pattern."
+    },
+    {
+      "case": 12,
+      "ledger_id": "V015",
+      "title": "Undeclared relative (Meera Rao's brother) directs vendor",
+      "expect": "none",
+      "clause": null,
+      "evidence_tier": null,
+      "designed_miss": true,
+      "note": "Relationship exists but appears in no record available to the auditor. Designed miss."
+    },
+    {
+      "case": 13,
+      "ledger_id": "V016",
+      "title": "Nominee holding 8% for promoter, undeclared",
+      "expect": "none",
+      "clause": null,
+      "evidence_tier": null,
+      "designed_miss": true,
+      "note": "Below threshold and beneficial interest undeclared. Designed miss."
+    },
+    {
+      "case": 14,
+      "ledger_id": "V011",
+      "title": "15% holder: RP only under post-Apr-2023 10% rule",
+      "expect": "rule_hit",
+      "clause": "LODR_2(1)(zb)(b)",
+      "evidence_tier": 1,
+      "designed_miss": false,
+      "note": "Would not fire under the 20% rule in force before 1 Apr 2023."
+    },
+    {
+      "case": 15,
+      "ledger_id": "V017",
+      "title": "Sole proprietor with no registry record",
+      "expect": "unresolved",
+      "clause": null,
+      "evidence_tier": null,
+      "designed_miss": false,
+      "note": "Must appear on the unresolved list, not silently pass."
+    },
+    {
+      "case": 16,
+      "ledger_id": "V002",
+      "title": "Materiality: 1,800 cr with promoter entity, two regimes in one FY",
+      "expect": "rule_hit",
+      "clause": "LODR_2(1)(zb)(a)",
+      "evidence_tier": 1,
+      "designed_miss": false,
+      "note": "Crosses old threshold (1,000 cr) on 2025-09-18; Schedule XII tier (2,250 cr) not crossed. Approvals on record."
+    }
+  ]
+}

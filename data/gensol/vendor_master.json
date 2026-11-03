@@ -1,0 +1,35 @@
+{
+  "source": "reconstructed_from_sebi_order",
+  "counterparties": [
+    {
+      "ledger_id": "GV01",
+      "name": "Go-Auto Pvt Ltd",
+      "pan": null,
+      "cin": "U34300DL2008PTC182562",
+      "gstin": null
+    },
+    {
+      "ledger_id": "GV02",
+      "name": "Capbridge Ventures LLP",
+      "pan": null,
+      "cin": null,
+      "gstin": null,
+      "_note": "no direct Gensol transaction in the order; included to test registry path and name-variant resolution (order spells 'Ventures', registry 'Venture')"
+    },
+    {
+      "ledger_id": "GV03",
+      "name": "Wellray Solar Industries Pvt Ltd",
+      "pan": null,
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "GV04",
+      "name": "BluSmart Mobility Pvt Ltd",
+      "pan": null,
+      "cin": null,
+      "gstin": null,
+      "_note": "lease counterparty; amounts not retrieved"
+    }
+  ]
+}

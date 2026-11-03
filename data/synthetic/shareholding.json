@@ -1,0 +1,399 @@
+{
+  "company_id": "E0",
+  "source": "exchange_filing:reg31_shareholding_pattern",
+  "retrieved_at": "2026-04-15",
+  "rows": [
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "promoter_group",
+      "holder": "Rajan Rao",
+      "holder_id": "P1",
+      "pct": 10.0
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "promoter_group",
+      "holder": "Meera Rao",
+      "holder_id": "P2",
+      "pct": 5.0
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "promoter_group",
+      "holder": "Rao Family Holdings Private Limited",
+      "holder_id": "E2",
+      "pct": 32.0
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "public",
+      "holder": "Horizon Capital Partners LLP",
+      "holder_id": "E10",
+      "pct": 9.5
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "public",
+      "holder": "Nordic Agri Fund",
+      "holder_id": "E11",
+      "pct": 15.0
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "public",
+      "holder": "Silverline Nominees Private Limited",
+      "holder_id": "E16",
+      "pct": 8.0
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "category": "public",
+      "holder": "Other public",
+      "holder_id": null,
+      "pct": 20.5
+    }
+  ]
+}

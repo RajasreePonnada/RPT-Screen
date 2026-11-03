@@ -1,0 +1,155 @@
+{
+  "_readme": "Named split is from the 30 Sep 2024 pattern (trendlyne mirror of Reg 31 filing). Promoter total was stable at 62.6-64.7% from Sep 2023 to Dec 2024, so the Sep 2024 split is APPLIED TO ALL LISTED QUARTERS AS AN ASSUMPTION; verify each quarter on bseindia.com. Mar 2025 (promoters 35.9% after pledge invocation) omitted: named split not retrieved.",
+  "company_id": "G0",
+  "source": "exchange_filing:reg31_shareholding_pattern (via trendlyne mirror)",
+  "retrieved_at": "2026-11-02",
+  "rows": [
+    {
+      "quarter_end": "2023-06-30",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2023-06-30",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2023-06-30",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2023-09-30",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2023-09-30",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2023-09-30",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2023-12-31",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2023-12-31",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2023-12-31",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2024-03-31",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2024-03-31",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2024-03-31",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2024-06-30",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2024-09-30",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Anmol Singh Jaggi",
+      "holder_id": "GP1",
+      "pct": 21.13
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Puneet Singh Jaggi",
+      "holder_id": "GP2",
+      "pct": 18.39
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "category": "promoter_group",
+      "holder": "Gensol Ventures Private Limited",
+      "holder_id": "G5",
+      "pct": 23.06
+    }
+  ]
+}

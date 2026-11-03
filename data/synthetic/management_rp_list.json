@@ -1,0 +1,41 @@
+{
+  "source": "books:management_related_party_list_FY2025-26",
+  "parties": [
+    {
+      "name": "Rajan Rao",
+      "relationship": "Managing Director, promoter"
+    },
+    {
+      "name": "Meera Rao",
+      "relationship": "Director, promoter"
+    },
+    {
+      "name": "Arvind Shah",
+      "relationship": "Independent Director"
+    },
+    {
+      "name": "Suresh Iyer",
+      "relationship": "Whole-time Director (till 15 Nov 2025)"
+    },
+    {
+      "name": "Anil Desai",
+      "relationship": "Independent Director"
+    },
+    {
+      "name": "Nitin Kulkarni",
+      "relationship": "CFO"
+    },
+    {
+      "name": "Priya Menon",
+      "relationship": "Company Secretary"
+    },
+    {
+      "name": "Meridian Logistics Private Limited",
+      "relationship": "Wholly owned subsidiary"
+    },
+    {
+      "name": "Rao Family Holdings Private Limited",
+      "relationship": "Promoter group entity"
+    }
+  ]
+}

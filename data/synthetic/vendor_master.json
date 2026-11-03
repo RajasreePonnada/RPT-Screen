@@ -1,0 +1,264 @@
+{
+  "source": "books:vendor_master",
+  "counterparties": [
+    {
+      "ledger_id": "V001",
+      "name": "Meridian Logistics Pvt Ltd",
+      "pan": "AAACM5678B",
+      "cin": "U63000MH2012PTC231002",
+      "gstin": "27AAACM5678B1Z5"
+    },
+    {
+      "ledger_id": "V002",
+      "name": "Rao Family Holdings Pvt. Ltd.",
+      "pan": "AAACR9012C",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V003",
+      "name": "Sunrise Agro Pvt Ltd",
+      "pan": null,
+      "cin": "U01100GJ2015PTC082004",
+      "gstin": "24AABCS3456D1Z2"
+    },
+    {
+      "ledger_id": "V004",
+      "name": "BHARAT COLDCHAIN PVT LTD",
+      "pan": null,
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V005",
+      "name": "Iyer Infra Private Limited",
+      "pan": "AABCI1234F",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V006",
+      "name": "Kavya Traders",
+      "pan": "AAFFK5678R",
+      "cin": null,
+      "gstin": "27AAFFK5678R1ZQ"
+    },
+    {
+      "ledger_id": "V007",
+      "name": "Rao Warehousing Pvt Ltd",
+      "pan": null,
+      "cin": null,
+      "gstin": "27AABCR5678G1Z1"
+    },
+    {
+      "ledger_id": "V008",
+      "name": "Greenfield Packaging Private Limited",
+      "pan": "AABCG9012H",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V009",
+      "name": "Coastal Agri Ventures Pvt Ltd",
+      "pan": "AABCC3456I",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V010",
+      "name": "Horizon Capital Partners LLP",
+      "pan": "AAEFH7890J",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V011",
+      "name": "Nordic Agri Fund",
+      "pan": "AADCN1234K",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V012",
+      "name": "Sunrise Agro Foods Ltd",
+      "pan": null,
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V013",
+      "name": "Apex Machinery Pvt Ltd",
+      "pan": "AABCA1111M",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V015",
+      "name": "Verma Agrotech Pvt Ltd",
+      "pan": "AABCV2222N",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V016",
+      "name": "Silverline Nominees Pvt Ltd",
+      "pan": "AABCS3333P",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V017",
+      "name": "Ramesh Transport",
+      "pan": null,
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V018",
+      "name": "Delta Seeds Pvt Ltd",
+      "pan": "AABCD4444Q",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V020",
+      "name": "Prime Fertilisers Pvt Ltd",
+      "pan": "AABAP2992A",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V021",
+      "name": "Shakti Logistics Pvt Ltd",
+      "pan": "AABBS4158H",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V022",
+      "name": "Kaveri Irrigation Pvt Ltd",
+      "pan": "AABCK4264O",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V023",
+      "name": "Everest Packaging Pvt Ltd",
+      "pan": "AABDE9623V",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V024",
+      "name": "Lotus Transport Pvt Ltd",
+      "pan": "AABEL9928C",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V025",
+      "name": "Narmada Agrochem Pvt Ltd",
+      "pan": "AABFN9230J",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V026",
+      "name": "Tulsi Seeds Pvt Ltd",
+      "pan": "AABGT3592Q",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V027",
+      "name": "Indus Engineering Pvt Ltd",
+      "pan": "AABHI6704X",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V028",
+      "name": "Saffron Traders Pvt Ltd",
+      "pan": "AABIS8239E",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V029",
+      "name": "Vega Cold Storage Pvt Ltd",
+      "pan": "AABJV3419L",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V030",
+      "name": "Mahi Fertilisers Pvt Ltd",
+      "pan": "AABKM3278S",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V031",
+      "name": "Ashoka Logistics Pvt Ltd",
+      "pan": "AABLA1756Z",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V032",
+      "name": "Garuda Irrigation Pvt Ltd",
+      "pan": "AABMG8705G",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V033",
+      "name": "Krishna Packaging Pvt Ltd",
+      "pan": "AABNK1608N",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V034",
+      "name": "Amber Transport Pvt Ltd",
+      "pan": "AABOA1271U",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V035",
+      "name": "Sahyadri Agrochem Pvt Ltd",
+      "pan": "AABPS3038B",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V036",
+      "name": "Zenith Seeds Pvt Ltd",
+      "pan": "AABQZ6233I",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V037",
+      "name": "Orchid Engineering Pvt Ltd",
+      "pan": "AABRO9403P",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V038",
+      "name": "Vindhya Traders Pvt Ltd",
+      "pan": "AABSV9347W",
+      "cin": null,
+      "gstin": null
+    },
+    {
+      "ledger_id": "V039",
+      "name": "Aravali Cold Storage Pvt Ltd",
+      "pan": "AABTA7114D",
+      "cin": null,
+      "gstin": null
+    }
+  ]
+}

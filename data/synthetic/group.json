@@ -1,0 +1,15 @@
+{
+  "company_id": "E0",
+  "source": "annual_report_FY2024-25:AOC-1",
+  "retrieved_at": "2026-04-15",
+  "subsidiaries": [
+    {
+      "entity_id": "E1",
+      "name": "Meridian Logistics Private Limited",
+      "pct": 100.0,
+      "since": "2012-03-15"
+    }
+  ],
+  "associates": [],
+  "consolidated_turnover_cr_FY2024_25": 25000.0
+}

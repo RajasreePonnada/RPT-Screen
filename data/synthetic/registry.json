@@ -1,0 +1,885 @@
+{
+  "entities": [
+    {
+      "entity_id": "E0",
+      "name": "Meridian Agro Industries Limited",
+      "cin": "L15100MH2004PLC147001",
+      "llpin": null,
+      "pan": "AAACM1234A",
+      "registered_address": "Meridian Tower, Plot 7, Bandra Kurla Complex, Mumbai 400051, Maharashtra",
+      "incorporated_on": "2004-06-01",
+      "paid_up_capital_cr": 120.0,
+      "is_public": true,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "00123456",
+          "name": "Rajan Rao",
+          "designation": "Managing Director",
+          "from": "2004-06-01",
+          "to": null
+        },
+        {
+          "din": "00123457",
+          "name": "Meera Rao",
+          "designation": "Non-Executive Director",
+          "from": "2010-04-01",
+          "to": null
+        },
+        {
+          "din": "01122334",
+          "name": "Arvind Shah",
+          "designation": "Independent Director",
+          "from": "2019-08-01",
+          "to": null
+        },
+        {
+          "din": "02233445",
+          "name": "Suresh Iyer",
+          "designation": "Whole-time Director",
+          "from": "2017-01-15",
+          "to": "2025-11-15"
+        },
+        {
+          "din": "04455667",
+          "name": "Anil Desai",
+          "designation": "Independent Director",
+          "from": "2021-02-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:L15100MH2004PLC147001"
+    },
+    {
+      "entity_id": "E1",
+      "name": "Meridian Logistics Private Limited",
+      "cin": "U63000MH2012PTC231002",
+      "llpin": null,
+      "pan": "AAACM5678B",
+      "registered_address": "Meridian Tower, Plot 7, Bandra Kurla Complex, Mumbai 400051, Maharashtra",
+      "incorporated_on": "2012-03-15",
+      "paid_up_capital_cr": 25.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U63000MH2012PTC231002"
+    },
+    {
+      "entity_id": "E2",
+      "name": "Rao Family Holdings Private Limited",
+      "cin": "U65990MH1998PTC116003",
+      "llpin": null,
+      "pan": "AAACR9012C",
+      "registered_address": "Rao House, 14 Marine Lines, Mumbai 400020, Maharashtra",
+      "incorporated_on": "1998-09-20",
+      "paid_up_capital_cr": 5.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U65990MH1998PTC116003"
+    },
+    {
+      "entity_id": "E3",
+      "name": "Sunrise Agro Private Limited",
+      "cin": "U01100GJ2015PTC082004",
+      "llpin": null,
+      "pan": "AABCS3456D",
+      "registered_address": "Plot 22, GIDC Vatva, Ahmedabad 382445, Gujarat",
+      "incorporated_on": "2015-03-01",
+      "paid_up_capital_cr": 2.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "01122334",
+          "name": "Arvind Shah",
+          "designation": "Director",
+          "from": "2015-03-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U01100GJ2015PTC082004"
+    },
+    {
+      "entity_id": "E4",
+      "name": "Bharat Cold Chain Private Limited",
+      "cin": "U63020MH2016PTC284005",
+      "llpin": null,
+      "pan": "AABCB7890E",
+      "registered_address": "Gala 9, MIDC Taloja, Navi Mumbai 410208, Maharashtra",
+      "incorporated_on": "2016-11-01",
+      "paid_up_capital_cr": 3.5,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "04455667",
+          "name": "Anil Desai",
+          "designation": "Director",
+          "from": "2016-11-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U63020MH2016PTC284005"
+    },
+    {
+      "entity_id": "E5",
+      "name": "Iyer Infra Private Limited",
+      "cin": "U45200TN2012PTC086006",
+      "llpin": null,
+      "pan": "AABCI1234F",
+      "registered_address": "18 Anna Salai, Chennai 600002, Tamil Nadu",
+      "incorporated_on": "2012-07-01",
+      "paid_up_capital_cr": 1.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "02233445",
+          "name": "Suresh Iyer",
+          "designation": "Director",
+          "from": "2012-07-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U45200TN2012PTC086006"
+    },
+    {
+      "entity_id": "E7",
+      "name": "Rao Warehousing Private Limited",
+      "cin": "U63090MH2014PTC255007",
+      "llpin": null,
+      "pan": "AABCR5678G",
+      "registered_address": "Warehouse 3, Bhiwandi 421302, Maharashtra",
+      "incorporated_on": "2014-05-01",
+      "paid_up_capital_cr": 4.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "05566778",
+          "name": "Vikram Rao",
+          "designation": "Director",
+          "from": "2014-05-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U63090MH2014PTC255007"
+    },
+    {
+      "entity_id": "E8",
+      "name": "Greenfield Packaging Private Limited",
+      "cin": "U21000MH2013PTC243008",
+      "llpin": null,
+      "pan": "AABCG9012H",
+      "registered_address": "Rao House, 14 Marine Lines, Mumbai 400020, Maharashtra",
+      "incorporated_on": "2013-06-01",
+      "paid_up_capital_cr": 1.5,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "08899001",
+          "name": "Mohan Pillai",
+          "designation": "Director",
+          "from": "2013-06-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U21000MH2013PTC243008"
+    },
+    {
+      "entity_id": "E9",
+      "name": "Coastal Agri Ventures Private Limited",
+      "cin": "U01400MH2016PTC271009",
+      "llpin": null,
+      "pan": "AABCC3456I",
+      "registered_address": "Unit 5, Ratnagiri Industrial Estate, Ratnagiri 415612, Maharashtra",
+      "incorporated_on": "2016-01-01",
+      "paid_up_capital_cr": 10.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "08899001",
+          "name": "Mohan Pillai",
+          "designation": "Director",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U01400MH2016PTC271009",
+      "shareholders_filing": {
+        "source": "mgt7_inspection:U01400MH2016PTC271009:FY2024-25",
+        "holders": [
+          {
+            "holder": "E2",
+            "pct": 60.0
+          },
+          {
+            "holder": "P13",
+            "pct": 40.0
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": "E10",
+      "name": "Horizon Capital Partners LLP",
+      "cin": null,
+      "llpin": "AAB-1234",
+      "pan": "AAEFH7890J",
+      "registered_address": "Level 9, One BKC, Mumbai 400051, Maharashtra",
+      "incorporated_on": "2011-10-10",
+      "paid_up_capital_cr": 50.0,
+      "is_public": false,
+      "kind": "llp",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:AAB-1234"
+    },
+    {
+      "entity_id": "E11",
+      "name": "Nordic Agri Fund",
+      "cin": null,
+      "llpin": null,
+      "pan": "AADCN1234K",
+      "registered_address": "c/o Custodian, Nariman Point, Mumbai 400021, Maharashtra",
+      "incorporated_on": "2009-01-01",
+      "paid_up_capital_cr": null,
+      "is_public": false,
+      "kind": "fpi",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:AADCN1234K"
+    },
+    {
+      "entity_id": "E12",
+      "name": "Sunrise Agro Foods Limited",
+      "cin": "L15400GJ2011PLC064012",
+      "llpin": null,
+      "pan": "AABCS9999L",
+      "registered_address": "Sarkhej Road, Ahmedabad 380055, Gujarat",
+      "incorporated_on": "2011-01-01",
+      "paid_up_capital_cr": 40.0,
+      "is_public": true,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "06677889",
+          "name": "Sanjay Bhatt",
+          "designation": "Director",
+          "from": "2011-01-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:L15400GJ2011PLC064012"
+    },
+    {
+      "entity_id": "E13",
+      "name": "Apex Machinery Private Limited",
+      "cin": "U29200MH2025PTC401013",
+      "llpin": null,
+      "pan": "AABCA1111M",
+      "registered_address": "Shed 2, Chakan Industrial Area, Pune 410501, Maharashtra",
+      "incorporated_on": "2025-02-10",
+      "paid_up_capital_cr": 0.01,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "07788990",
+          "name": "Ritu Agarwal",
+          "designation": "Director",
+          "from": "2025-02-10",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U29200MH2025PTC401013"
+    },
+    {
+      "entity_id": "E15",
+      "name": "Verma Agrotech Private Limited",
+      "cin": "U01100MH2018PTC305015",
+      "llpin": null,
+      "pan": "AABCV2222N",
+      "registered_address": "Office 4, Nashik Road, Nashik 422101, Maharashtra",
+      "incorporated_on": "2018-02-01",
+      "paid_up_capital_cr": 2.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "03344556",
+          "name": "Deepak Verma",
+          "designation": "Director",
+          "from": "2018-02-01",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U01100MH2018PTC305015"
+    },
+    {
+      "entity_id": "E16",
+      "name": "Silverline Nominees Private Limited",
+      "cin": "U67100MH2019PTC322016",
+      "llpin": null,
+      "pan": "AABCS3333P",
+      "registered_address": "Office 11, Fort, Mumbai 400001, Maharashtra",
+      "incorporated_on": "2019-04-01",
+      "paid_up_capital_cr": 0.1,
+      "is_public": false,
+      "kind": "company",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U67100MH2019PTC322016"
+    },
+    {
+      "entity_id": "E18",
+      "name": "Delta Seeds Private Limited",
+      "cin": "U01110MH2010PTC201018",
+      "llpin": null,
+      "pan": "AABCD4444Q",
+      "registered_address": "Plot 3, MIDC Jalna 431203, Maharashtra",
+      "incorporated_on": "2010-08-08",
+      "paid_up_capital_cr": 6.0,
+      "is_public": false,
+      "kind": "company",
+      "directors": [],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U01110MH2010PTC201018"
+    },
+    {
+      "entity_id": "E20",
+      "name": "Prime Fertilisers Private Limited",
+      "cin": "U59437MH2007PTC183577",
+      "llpin": null,
+      "pan": "AABAP2992A",
+      "registered_address": "Plot 54, Industrial Area, Pune 411001, Maharashtra",
+      "incorporated_on": "2007-01-25",
+      "paid_up_capital_cr": 16.86,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "37240298",
+          "name": "Director E20",
+          "designation": "Director",
+          "from": "2007-01-25",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U59437MH2007PTC183577"
+    },
+    {
+      "entity_id": "E21",
+      "name": "Shakti Logistics Private Limited",
+      "cin": "U77623MH2017PTC344778",
+      "llpin": null,
+      "pan": "AABBS4158H",
+      "registered_address": "Plot 77, Industrial Area, Nagpur 440001, Maharashtra",
+      "incorporated_on": "2017-03-23",
+      "paid_up_capital_cr": 11.41,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "85836118",
+          "name": "Director E21",
+          "designation": "Director",
+          "from": "2017-03-23",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U77623MH2017PTC344778"
+    },
+    {
+      "entity_id": "E22",
+      "name": "Kaveri Irrigation Private Limited",
+      "cin": "U87650MH2019PTC269843",
+      "llpin": null,
+      "pan": "AABCK4264O",
+      "registered_address": "Plot 70, Industrial Area, Indore 452001, Madhya Pradesh",
+      "incorporated_on": "2019-11-17",
+      "paid_up_capital_cr": 1.58,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "21585575",
+          "name": "Director E22",
+          "designation": "Director",
+          "from": "2019-11-17",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U87650MH2019PTC269843"
+    },
+    {
+      "entity_id": "E23",
+      "name": "Everest Packaging Private Limited",
+      "cin": "U93929MH2008PTC138639",
+      "llpin": null,
+      "pan": "AABDE9623V",
+      "registered_address": "Plot 99, Industrial Area, Surat 395003, Gujarat",
+      "incorporated_on": "2008-11-18",
+      "paid_up_capital_cr": 19.56,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "10509658",
+          "name": "Director E23",
+          "designation": "Director",
+          "from": "2008-11-18",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U93929MH2008PTC138639"
+    },
+    {
+      "entity_id": "E24",
+      "name": "Lotus Transport Private Limited",
+      "cin": "U69777MH2005PTC288397",
+      "llpin": null,
+      "pan": "AABEL9928C",
+      "registered_address": "Plot 9, Industrial Area, Hyderabad 500001, Telangana",
+      "incorporated_on": "2005-07-28",
+      "paid_up_capital_cr": 12.76,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "90580828",
+          "name": "Director E24",
+          "designation": "Director",
+          "from": "2005-07-28",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U69777MH2005PTC288397"
+    },
+    {
+      "entity_id": "E25",
+      "name": "Narmada Agrochem Private Limited",
+      "cin": "U96924MH2008PTC217125",
+      "llpin": null,
+      "pan": "AABFN9230J",
+      "registered_address": "Plot 77, Industrial Area, Coimbatore 641001, Tamil Nadu",
+      "incorporated_on": "2008-02-10",
+      "paid_up_capital_cr": 17.76,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "80021922",
+          "name": "Director E25",
+          "designation": "Director",
+          "from": "2008-02-10",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U96924MH2008PTC217125"
+    },
+    {
+      "entity_id": "E26",
+      "name": "Tulsi Seeds Private Limited",
+      "cin": "U26296MH2018PTC250170",
+      "llpin": null,
+      "pan": "AABGT3592Q",
+      "registered_address": "Plot 93, Industrial Area, Pune 411001, Maharashtra",
+      "incorporated_on": "2018-05-11",
+      "paid_up_capital_cr": 16.73,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "74257535",
+          "name": "Director E26",
+          "designation": "Director",
+          "from": "2018-05-11",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U26296MH2018PTC250170"
+    },
+    {
+      "entity_id": "E27",
+      "name": "Indus Engineering Private Limited",
+      "cin": "U74500MH2005PTC185324",
+      "llpin": null,
+      "pan": "AABHI6704X",
+      "registered_address": "Plot 44, Industrial Area, Nagpur 440001, Maharashtra",
+      "incorporated_on": "2005-09-27",
+      "paid_up_capital_cr": 18.45,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "28419764",
+          "name": "Director E27",
+          "designation": "Director",
+          "from": "2005-09-27",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U74500MH2005PTC185324"
+    },
+    {
+      "entity_id": "E28",
+      "name": "Saffron Traders Private Limited",
+      "cin": "U21450MH2017PTC220365",
+      "llpin": null,
+      "pan": "AABIS8239E",
+      "registered_address": "Plot 54, Industrial Area, Indore 452001, Madhya Pradesh",
+      "incorporated_on": "2017-05-09",
+      "paid_up_capital_cr": 0.57,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "50352819",
+          "name": "Director E28",
+          "designation": "Director",
+          "from": "2017-05-09",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U21450MH2017PTC220365"
+    },
+    {
+      "entity_id": "E29",
+      "name": "Vega Cold Storage Private Limited",
+      "cin": "U31370MH2007PTC237525",
+      "llpin": null,
+      "pan": "AABJV3419L",
+      "registered_address": "Plot 99, Industrial Area, Surat 395003, Gujarat",
+      "incorporated_on": "2007-05-15",
+      "paid_up_capital_cr": 10.21,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "76753708",
+          "name": "Director E29",
+          "designation": "Director",
+          "from": "2007-05-15",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U31370MH2007PTC237525"
+    },
+    {
+      "entity_id": "E30",
+      "name": "Mahi Fertilisers Private Limited",
+      "cin": "U22047MH2007PTC154315",
+      "llpin": null,
+      "pan": "AABKM3278S",
+      "registered_address": "Plot 29, Industrial Area, Hyderabad 500001, Telangana",
+      "incorporated_on": "2007-03-06",
+      "paid_up_capital_cr": 7.02,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "34924736",
+          "name": "Director E30",
+          "designation": "Director",
+          "from": "2007-03-06",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U22047MH2007PTC154315"
+    },
+    {
+      "entity_id": "E31",
+      "name": "Ashoka Logistics Private Limited",
+      "cin": "U67885MH2010PTC300106",
+      "llpin": null,
+      "pan": "AABLA1756Z",
+      "registered_address": "Plot 48, Industrial Area, Coimbatore 641001, Tamil Nadu",
+      "incorporated_on": "2010-06-22",
+      "paid_up_capital_cr": 3.04,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "82927254",
+          "name": "Director E31",
+          "designation": "Director",
+          "from": "2010-06-22",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U67885MH2010PTC300106"
+    },
+    {
+      "entity_id": "E32",
+      "name": "Garuda Irrigation Private Limited",
+      "cin": "U79361MH2018PTC249523",
+      "llpin": null,
+      "pan": "AABMG8705G",
+      "registered_address": "Plot 79, Industrial Area, Pune 411001, Maharashtra",
+      "incorporated_on": "2018-11-14",
+      "paid_up_capital_cr": 7.31,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "68082411",
+          "name": "Director E32",
+          "designation": "Director",
+          "from": "2018-11-14",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U79361MH2018PTC249523"
+    },
+    {
+      "entity_id": "E33",
+      "name": "Krishna Packaging Private Limited",
+      "cin": "U67450MH2020PTC340922",
+      "llpin": null,
+      "pan": "AABNK1608N",
+      "registered_address": "Plot 93, Industrial Area, Nagpur 440001, Maharashtra",
+      "incorporated_on": "2020-09-02",
+      "paid_up_capital_cr": 5.62,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "63748318",
+          "name": "Director E33",
+          "designation": "Director",
+          "from": "2020-09-02",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U67450MH2020PTC340922"
+    },
+    {
+      "entity_id": "E34",
+      "name": "Amber Transport Private Limited",
+      "cin": "U20064MH2007PTC396074",
+      "llpin": null,
+      "pan": "AABOA1271U",
+      "registered_address": "Plot 99, Industrial Area, Indore 452001, Madhya Pradesh",
+      "incorporated_on": "2007-08-24",
+      "paid_up_capital_cr": 19.74,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "51465502",
+          "name": "Director E34",
+          "designation": "Director",
+          "from": "2007-08-24",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U20064MH2007PTC396074"
+    },
+    {
+      "entity_id": "E35",
+      "name": "Sahyadri Agrochem Private Limited",
+      "cin": "U87562MH2015PTC300463",
+      "llpin": null,
+      "pan": "AABPS3038B",
+      "registered_address": "Plot 49, Industrial Area, Surat 395003, Gujarat",
+      "incorporated_on": "2015-11-13",
+      "paid_up_capital_cr": 13.93,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "13257074",
+          "name": "Director E35",
+          "designation": "Director",
+          "from": "2015-11-13",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U87562MH2015PTC300463"
+    },
+    {
+      "entity_id": "E36",
+      "name": "Zenith Seeds Private Limited",
+      "cin": "U33151MH2007PTC103155",
+      "llpin": null,
+      "pan": "AABQZ6233I",
+      "registered_address": "Plot 80, Industrial Area, Hyderabad 500001, Telangana",
+      "incorporated_on": "2007-06-19",
+      "paid_up_capital_cr": 14.25,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "70105378",
+          "name": "Director E36",
+          "designation": "Director",
+          "from": "2007-06-19",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U33151MH2007PTC103155"
+    },
+    {
+      "entity_id": "E37",
+      "name": "Orchid Engineering Private Limited",
+      "cin": "U45223MH2016PTC301374",
+      "llpin": null,
+      "pan": "AABRO9403P",
+      "registered_address": "Plot 27, Industrial Area, Coimbatore 641001, Tamil Nadu",
+      "incorporated_on": "2016-12-27",
+      "paid_up_capital_cr": 18.14,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "55452438",
+          "name": "Director E37",
+          "designation": "Director",
+          "from": "2016-12-27",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U45223MH2016PTC301374"
+    },
+    {
+      "entity_id": "E38",
+      "name": "Vindhya Traders Private Limited",
+      "cin": "U22806MH2020PTC325740",
+      "llpin": null,
+      "pan": "AABSV9347W",
+      "registered_address": "Plot 40, Industrial Area, Pune 411001, Maharashtra",
+      "incorporated_on": "2020-12-07",
+      "paid_up_capital_cr": 4.42,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "88540863",
+          "name": "Director E38",
+          "designation": "Director",
+          "from": "2020-12-07",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U22806MH2020PTC325740"
+    },
+    {
+      "entity_id": "E39",
+      "name": "Aravali Cold Storage Private Limited",
+      "cin": "U77833MH2017PTC244460",
+      "llpin": null,
+      "pan": "AABTA7114D",
+      "registered_address": "Plot 89, Industrial Area, Nagpur 440001, Maharashtra",
+      "incorporated_on": "2017-11-10",
+      "paid_up_capital_cr": 6.39,
+      "is_public": false,
+      "kind": "company",
+      "directors": [
+        {
+          "din": "24616803",
+          "name": "Director E39",
+          "designation": "Director",
+          "from": "2017-11-10",
+          "to": null
+        }
+      ],
+      "retrieved_at": "2026-04-15",
+      "source": "mca_master_data:U77833MH2017PTC244460"
+    }
+  ],
+  "kmp": [
+    {
+      "person_id": "P5",
+      "name": "Nitin Kulkarni",
+      "designation": "Chief Financial Officer",
+      "from": "2020-05-01",
+      "to": null,
+      "source": "annual_report_FY2024-25:board_report:p.41"
+    },
+    {
+      "person_id": "P6",
+      "name": "Priya Menon",
+      "designation": "Company Secretary",
+      "from": "2021-09-01",
+      "to": null,
+      "source": "annual_report_FY2024-25:board_report:p.41"
+    }
+  ],
+  "people_dins": {
+    "00123456": {
+      "person_id": "P1",
+      "name": "Rajan Rao"
+    },
+    "00123457": {
+      "person_id": "P2",
+      "name": "Meera Rao"
+    },
+    "01122334": {
+      "person_id": "P3",
+      "name": "Arvind Shah"
+    },
+    "02233445": {
+      "person_id": "P4",
+      "name": "Suresh Iyer"
+    },
+    "03344556": {
+      "person_id": "P8",
+      "name": "Deepak Verma"
+    },
+    "04455667": {
+      "person_id": "P9",
+      "name": "Anil Desai"
+    },
+    "05566778": {
+      "person_id": "P10",
+      "name": "Vikram Rao"
+    },
+    "06677889": {
+      "person_id": "P11",
+      "name": "Sanjay Bhatt"
+    },
+    "07788990": {
+      "person_id": "P12",
+      "name": "Ritu Agarwal"
+    },
+    "08899001": {
+      "person_id": "P13",
+      "name": "Mohan Pillai"
+    }
+  }
+}

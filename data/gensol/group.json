@@ -1,0 +1,16 @@
+{
+  "company_id": "G0",
+  "source": "sebi_interim_order:para30",
+  "retrieved_at": "2026-11-02",
+  "subsidiaries": [
+    {
+      "entity_id": "G6",
+      "name": "Gensol EV Lease Limited",
+      "pct": 88.21,
+      "since": "2023-05-24"
+    }
+  ],
+  "associates": [],
+  "consolidated_turnover_cr_FY2024_25": 960.0,
+  "_note": "FIGURE IS FY2023-24 (~Rs 960 cr, company press release Apr 2024); FY2024-25 audited figure not retrieved. Materiality thresholds computed on this."
+}
