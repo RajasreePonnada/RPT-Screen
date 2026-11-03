@@ -19,7 +19,19 @@ python run_synthetic.py            # run, write out/synthetic/{report.md, eviden
 python run_synthetic.py --rule-as-of 2022-10-01   # counterfactual: evaluate under the rules of that date
 python calibrate_resolver.py       # similarity scores behind the resolver thresholds
 python run_gensol.py               # Gensol public-record set (filled 2026-11-02 from MCA mirrors; see data/gensol/RESULTS.md)
+
+To run the live model instead of the stub (optional; needs a free OpenRouter account at
+openrouter.ai, Keys → Create):
+
+```bash
+export OPENROUTER_API_KEY=sk-or-...            # never commit this; set it in the shell only
+export RPT_MODEL="nvidia/nemotron-3.5-lightning:free"   # any current :free model id works
+python run_synthetic.py --extractor openrouter --out out/synthetic_live
 ```
+
+Five declarations are sent, one call each, paced 6 s apart with retry on 429. Free routes are
+often throttled; if a model keeps returning 429, pick another `:free` id from
+`curl -s https://openrouter.ai/api/v1/models | grep ':free'`.```
 
 No API key is needed. The default `--extractor stub` is a deterministic regex stand-in for the
 LLM so results are reproducible offline. `--extractor openrouter` calls a free-tier model via
