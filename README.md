@@ -25,7 +25,7 @@ No API key is needed. The default `--extractor stub` is a deterministic regex st
 LLM so results are reproducible offline. `--extractor openrouter` calls a free-tier model via
 OpenRouter (`OPENROUTER_API_KEY`, optional `RPT_MODEL`; default `google/gemma-4-31b-it:free`
 — check the current free list, rate limits apply). The OpenRouter path has the same output
-contract and validation but **was not exercised live in this build**; see "Honest status" below.
+contract and validation and it was run once live; see ‘Real-model extraction run’ below.; see "Honest status" below.
 
 ## What is in here
 
