@@ -25,7 +25,7 @@ No API key is needed. The default `--extractor stub` is a deterministic regex st
 LLM so results are reproducible offline. `--extractor openrouter` calls a free-tier model via
 OpenRouter (`OPENROUTER_API_KEY`, optional `RPT_MODEL`; default `google/gemma-4-31b-it:free`
 — check the current free list, rate limits apply). The OpenRouter path has the same output
-contract and validation and it was run once live; see ‘Real-model extraction run’ below.; see "Honest status" below.
+contract and validation and it was run once live; see ‘Real-model extraction run’ below.
 
 ## What is in here
 
@@ -165,6 +165,9 @@ declaration text was sent to a third-party model.
 * Synthetic end-to-end: runs, tested, reproducible.
 * Gensol retrospective: executed on mirror data; verification against mca.gov.in and BSE filings pending;
   Ind AS 24 amounts not retrieved, so reconciliation produced nothing on this set.
+* Gensol registry fields were retrieved from public mirrors of MCA data (mca.gov.in needs a captcha)
+  and have not yet been verified against the portal; every record in `data/gensol/registry.json`
+  cites its mirror and retrieval date.
 * OpenRouter extractor: run once live with `nvidia/nemotron-3.5-lightning:free` (see above).
 * No real client, personal or non-public data anywhere in this repo. The only real names are the
   entities and promoters named in SEBI's public orders, used solely as a public-record test set.
